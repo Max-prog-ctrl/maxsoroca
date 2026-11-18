@@ -1563,43 +1563,597 @@
   "t": "it began in eppelsheim",
   "s": "mix · 78 min · October 2017",
   "b": "In 1835 a skull more than a metre long came out of a sand pit near Eppelsheim in Rhenish Hesse. It belonged to Deinotherium, a relative of the elephant whose tusks did not point forward but curved down, towards the ground in which it would one day be found.\n\nEvery beginning is dug out of something older. This one lasts seventy-eight minutes.",
-  "snd": "https://archive.org/download/maxsoroca-mixes/eppelsheim.m4a"
+  "snd": "https://archive.org/download/maxsoroca-mixes/eppelsheim.m4a",
+  "tl": [
+   [
+    0,
+    "MXLX – U Prick"
+   ],
+   [
+    222,
+    "In Gowan Ring – Dream Reprise"
+   ],
+   [
+    429,
+    "Delia Derbyshire – Pot au feu"
+   ],
+   [
+    562,
+    "Krautzone – Superkraut II"
+   ],
+   [
+    1057,
+    "Heimat – Trocadero"
+   ],
+   [
+    1201,
+    "Brian Eno – Dow"
+   ],
+   [
+    1400,
+    "Ariel Kalma – Trancing 1979"
+   ],
+   [
+    1556,
+    "Khaled Kurbeh & Raman Khalaf Ensemble – Toska"
+   ],
+   [
+    1806,
+    "Ali Kuru – Zorba the Greek"
+   ],
+   [
+    2422,
+    "Jonathan Fitoussi & Clemens Hourriere – Five Steps"
+   ],
+   [
+    2844,
+    "Demirci Hüso – Tayfun"
+   ],
+   [
+    2988,
+    "Invinsible Church & Marie Davidson – Never Release the Tension"
+   ],
+   [
+    3324,
+    "Satyricon – The Wolfpack"
+   ],
+   [
+    3562,
+    "Teho Teardo & Blixa Bargeld – The Beast"
+   ],
+   [
+    3850,
+    "Colleen – Winter Dawn"
+   ],
+   [
+    4112,
+    "Kevin Shields & Brian Eno – Only Once Away My Son"
+   ]
+  ]
  },
  "ES_IST_EIN_KRAUT_ENTSPRUNGEN": {
   "t": "es ist ein kraut entsprungen",
   "s": "mix · 94 min · November 2017",
   "b": "The old carol, first printed in 1599, sings of a rose that has sprung from a tender root in the middle of a cold winter.\n\nHere it is a herb instead. Kraut is what the English-speaking world called a whole generation of German music that refused to sound like anything before it. The herb sprang up a fortnight before Advent and grew for ninety-four minutes.",
-  "snd": "https://archive.org/download/maxsoroca-mixes/kraut.m4a"
+  "snd": "https://archive.org/download/maxsoroca-mixes/kraut.m4a",
+  "tl": [
+   [
+    0,
+    "Der Räuber und der Prinz – Der elektrische Reiter"
+   ],
+   [
+    394,
+    "Valerio Cosi – Affenstunde"
+   ],
+   [
+    827,
+    "Rhytch – Nasty"
+   ],
+   [
+    1038,
+    "Horns and Drums – Waka Wakah"
+   ],
+   [
+    1498,
+    "Charles Cohen – Camera Dance"
+   ],
+   [
+    2227,
+    "DJ DSL – Lovesick"
+   ],
+   [
+    2407,
+    "I tpame I tvrame – Deserted"
+   ],
+   [
+    2598,
+    "KP Transmission – Sand"
+   ],
+   [
+    3191,
+    "DeepChord presents Echospace – Aequinoxium"
+   ],
+   [
+    3897,
+    "No Zen Orchestra – Yuga (Sweet Meat)"
+   ],
+   [
+    4151,
+    "Geist & The Sacred Ensemble – On the Next Full Moon"
+   ],
+   [
+    4455,
+    "furniture – We Are We in Love"
+   ],
+   [
+    4669,
+    "brunnen – Tiger Lily Girl"
+   ],
+   [
+    4935,
+    "Gerry and the Holograms – Increased Resistance"
+   ],
+   [
+    5633,
+    "Peter Power – Chakra Esoteria"
+   ]
+  ]
  },
  "DIE_LETZTE_WELT": {
   "t": "die letzte welt",
   "s": "mix · 76 min · August 2018",
   "b": "In Christoph Ransmayr's novel a man named Cotta travels to Tomi, the iron town on the Black Sea where Ovid was exiled, to find the poet or at least his lost book of transformations. He finds neither. He finds the people of the town turning, one by one, into the figures of the book, and fragments of the text written on stones and rags.\n\nThe last world is the one in which every story has already happened and is happening again.",
-  "snd": "https://archive.org/download/maxsoroca-mixes/letztewelt.m4a"
+  "snd": "https://archive.org/download/maxsoroca-mixes/letztewelt.m4a",
+  "tl": [
+   [
+    0,
+    "Cucina Povera – Huhuilu"
+   ],
+   [
+    183,
+    "Los Bukis – Falso Amor"
+   ],
+   [
+    359,
+    "Maria Rita – Cântico Brasileiro No. 3 (Kamaiurá)"
+   ],
+   [
+    589,
+    "Lucrecia Dalt – Tar"
+   ],
+   [
+    897,
+    "Wolf Müller & Niklas Wandt – Expedition"
+   ],
+   [
+    1490,
+    "John Bender – 39A5 I Want to Be Loved for It"
+   ],
+   [
+    1736,
+    "Marie Sans Délire – Threat Generator"
+   ],
+   [
+    1950,
+    "Phantom Band – Nervous Breakdown"
+   ],
+   [
+    2243,
+    "The Pink Elephants – Bubble Boy"
+   ],
+   [
+    2696,
+    "Aurum Miles – Easy Come Easy Go"
+   ],
+   [
+    3097,
+    "Joe Crow – We Said We Wouldn’t Look Back"
+   ],
+   [
+    3351,
+    "Frische Farbe – Falsche Pläne"
+   ],
+   [
+    3729,
+    "Mutter – Die Erde wird der schönste Platz im All"
+   ],
+   [
+    3936,
+    "Emptyset – Completely Gone"
+   ],
+   [
+    4096,
+    "Alien Alien feat. Igino – Perfidia"
+   ]
+  ]
  },
  "INSIDE/OUTSIDE": {
   "t": "inside/outside",
   "s": "mix · 76 min · September 2018",
   "b": "A membrane has two sides and is a single thing. What is inside a cell is decided by a wall a few millionths of a millimetre thick, and the wall itself belongs to neither side.\n\nHeadphones are such a wall. Put them on, and the inside becomes very large.",
-  "snd": "https://archive.org/download/maxsoroca-mixes/insideoutside.m4a"
+  "snd": "https://archive.org/download/maxsoroca-mixes/insideoutside.m4a",
+  "tl": [
+   [
+    0,
+    "May Roosevelt – Chasm (Tsamiko)"
+   ],
+   [
+    332,
+    "In Atlas – Revolutionary Lover"
+   ],
+   [
+    655,
+    "Bienoise – Meanwhile Tomorrow"
+   ],
+   [
+    702,
+    "Tony Allen & Jeff Mills – The Seed (Edit)"
+   ],
+   [
+    1252,
+    "DJ Oil – Héritage"
+   ],
+   [
+    1724,
+    "Die Goldenen Zitronen – Wenn ich ein Turnschuh wär’ (Robag Wruhme Remix)"
+   ],
+   [
+    2021,
+    "Cardi B – Bodak Yellow"
+   ],
+   [
+    2239,
+    "Mogwai – Rano Pano"
+   ],
+   [
+    2540,
+    "The Pink Elephants – Bubble Boy"
+   ],
+   [
+    2980,
+    "Abyss X – L.A.S.H."
+   ],
+   [
+    3191,
+    "Marie Davidson – So Right"
+   ],
+   [
+    3487,
+    "Venus Volcanism – Pythia"
+   ],
+   [
+    3741,
+    "Phantogram – When I Am Small"
+   ],
+   [
+    3971,
+    "David Bowie – Blackstar"
+   ]
+  ]
  },
  "STAN": {
   "t": "stan",
   "s": "mix · 76 min · October 2017",
   "b": "In Persian, stān is a place: the land where something stands, where a people stays. Afghanistan, Kurdistan, Hindustan, a whole map of endings.\n\nIn English it is a first name. Somewhere between the two, someone puts on a record and the place begins.",
-  "snd": "https://archive.org/download/maxsoroca-mixes/stan.m4a"
+  "snd": "https://archive.org/download/maxsoroca-mixes/stan.m4a",
+  "tl": [
+   [
+    0,
+    "Davlatmand Kho – در روی جهانيم و ندانيم جهان چيست"
+   ],
+   [
+    523,
+    "Pakistani man playing traditional rubab – unknown"
+   ],
+   [
+    811,
+    "The Gaslamp Killer with Amir Yaghmai – Nissim"
+   ],
+   [
+    1077,
+    "Tinariwen – Sastanàqqàm"
+   ],
+   [
+    1276,
+    "Khidja – Drums of Taksim"
+   ],
+   [
+    2013,
+    "Muslimgauze – Algiers and Karachi"
+   ],
+   [
+    2727,
+    "Eric Holm – Måtinden"
+   ],
+   [
+    3214,
+    "Cevdet Erek – Flow 1"
+   ],
+   [
+    3409,
+    "Pamiri music – unknown"
+   ],
+   [
+    4010,
+    "Björk – Crystalline (Omar Souleyman Remix)"
+   ],
+   [
+    4400,
+    "Elias Rahbani – Dance of Maria"
+   ]
+  ]
  },
  "WE_EXIST_IN_A_TWILIGHT_IN_BETWEEN": {
   "t": "we exist in a twilight in between",
   "s": "mix · 59 min · 25 December 2018",
   "b": "Twilight has three stages, and each has its own name. Civil twilight lasts until the sun is six degrees below the horizon, nautical twilight until twelve, astronomical twilight until eighteen. After that it is night, or so the definitions say.\n\nOn Christmas Day, when the days are shortest, the twilight is long. This one lasts fifty-nine minutes.",
-  "snd": "https://archive.org/download/maxsoroca-mixes/twilight.mp3"
+  "snd": "https://archive.org/download/maxsoroca-mixes/twilight.mp3",
+  "tl": [
+   [
+    0,
+    "Die Heiterkeit – Was passiert ist"
+   ],
+   [
+    203,
+    "Marianne Faithfull & Nick Cave – The Gypsy Faerie Queen"
+   ],
+   [
+    402,
+    "Tiamat – Do You Dream of Me?"
+   ],
+   [
+    597,
+    "Twin Peaks – Windswept (Ambient Background)"
+   ],
+   [
+    960,
+    "Manfred Krug – Niemand liebt dich so wie ich"
+   ],
+   [
+    1303,
+    "Der Nino aus Wien – Es geht immer ums Vollenden"
+   ],
+   [
+    1568,
+    "Yo La Tengo – Tears Are in Your Eyes"
+   ],
+   [
+    1837,
+    "Julee Cruise – The Nightingale"
+   ],
+   [
+    1986,
+    "The Space Lady – Capn Jack"
+   ],
+   [
+    2181,
+    "Julia Holter – I Shall Love 2"
+   ],
+   [
+    2298,
+    "Exploded View – Gimme Something"
+   ],
+   [
+    2579,
+    "Mittekill mit Heim und Flucht Orchester – Herbsttag"
+   ],
+   [
+    2738,
+    "Marie Davidson – Work It"
+   ],
+   [
+    2996,
+    "DMX Krew – You Can’t Hide Your Love (Aphex Twin Hidden Live Mix)"
+   ],
+   [
+    3292,
+    "Caleb Hawley – You Sexy Thing"
+   ]
+  ]
  },
  "49_AUS_2020": {
   "t": "49 aus 2020",
   "s": "mix · 4 h 12 min · 24 December 2020",
   "b": "A year in which most people stayed in their rooms and the rooms became the world. Forty-nine pieces from it, put together on Christmas Eve, four hours and twelve minutes long.\n\nIt can be played from start to end, or left running in a room where nobody is, which is how much of that year was spent.",
-  "snd": "https://archive.org/download/maxsoroca-mixes/49aus2020.mp3"
+  "snd": "https://archive.org/download/maxsoroca-mixes/49aus2020.mp3",
+  "tl": [
+   [
+    0,
+    "xrc – piching-pgm18"
+   ],
+   [
+    468,
+    "Soundwalk Collective w/ Patti Smith – Peradam"
+   ],
+   [
+    901,
+    "Siti Muharam – Sikitiko"
+   ],
+   [
+    1361,
+    "Jucifer – UN OCCUPIED"
+   ],
+   [
+    1646,
+    "Passepartout Duo – Heartwood (Section 3)"
+   ],
+   [
+    1837,
+    "Bill Anagnos – In Progress"
+   ],
+   [
+    1970,
+    "Chant Electronique – A la Mañanita y al Amanecer"
+   ],
+   [
+    2286,
+    "The Bug feat. Dis Fig – You"
+   ],
+   [
+    2598,
+    "Jah Schulz – Dub Mistakes"
+   ],
+   [
+    2813,
+    "Çaykh – Soùmatra"
+   ],
+   [
+    3125,
+    "Elektricheskaya Sobaka – Idiot Cry II"
+   ],
+   [
+    3698,
+    "Café Türk – Ali Baba"
+   ],
+   [
+    4045,
+    "Shit & Shine – Hillbilly Moonshine"
+   ],
+   [
+    4268,
+    "NEP – Novi poredak (Metal Mix) feat. Alexx Kovacs"
+   ],
+   [
+    4872,
+    "Einstürzende Neubauten – Ten Grand Goldie"
+   ],
+   [
+    5493,
+    "Lilith Stangenberg – Leper"
+   ],
+   [
+    5602,
+    "Fiona Apple – Fetch the Bolt Cutters"
+   ],
+   [
+    6300,
+    "Bright Eyes – Mariana Trench"
+   ],
+   [
+    6573,
+    "Die Aeronauten – Dieses anstrengende Leben"
+   ],
+   [
+    6792,
+    "…And You Will Know Us by the Trail of Dead – Don’t Look Down"
+   ],
+   [
+    7170,
+    "The Flaming Lips – Mother Please Don’t Be Sad"
+   ],
+   [
+    7431,
+    "Bob Dylan – My Own Version of You"
+   ],
+   [
+    7474,
+    "SAULT – Free"
+   ],
+   [
+    7767,
+    "Sun Ra Arkestra – Rocket No. 9"
+   ],
+   [
+    8180,
+    "Mourning [A] BLKstar – So Young So"
+   ],
+   [
+    8582,
+    "Terrace Martin feat. Denzel Curry, Kamasi Washington, G Perico & Daylyt – Pig Feet"
+   ],
+   [
+    8793,
+    "clipping. – Say the Name"
+   ],
+   [
+    9335,
+    "Backxwash – Into the Void"
+   ],
+   [
+    9592,
+    "Tricky – Hate This Pain"
+   ],
+   [
+    9733,
+    "East Man & Lyrical Strally – Ten Ton Riddim"
+   ],
+   [
+    10022,
+    "Speaker Music – American Marxists Have Tended to Fall into the Trap …"
+   ],
+   [
+    10240,
+    "Godspeed You! Peter Andre – Clubber"
+   ],
+   [
+    10540,
+    "Pharaoh Overlord – Arms of the Butcher"
+   ],
+   [
+    10669,
+    "Hjelvik – Father War"
+   ],
+   [
+    11016,
+    "Oranssi Pazuzu – Kuulen ääniä maan alta"
+   ],
+   [
+    11410,
+    "Hey Colossus – Dead Songs for Dead Sires"
+   ],
+   [
+    11804,
+    "Ayahuasca Tasting Room – Stick in Mouth"
+   ],
+   [
+    11914,
+    "Billie Eilish – Therefore I Am"
+   ],
+   [
+    12362,
+    "Borusiade – Lament (Fortunate Isolation)"
+   ],
+   [
+    12826,
+    "Annie – American Cars"
+   ],
+   [
+    12893,
+    "Pet Shop Boys – Burning the Heather"
+   ],
+   [
+    13201,
+    "Squarepusher – Midi Sans Frontières Avec Batterie"
+   ],
+   [
+    13435,
+    "Ferge x Fisherman – In My Shoes"
+   ],
+   [
+    13938,
+    "The Avalanches – We Go On"
+   ],
+   [
+    14164,
+    "Moodymann – Do Wrong"
+   ],
+   [
+    14219,
+    "BMB – Real Good Time Together"
+   ],
+   [
+    14453,
+    "Arurmukha – trans-zen-dental"
+   ],
+   [
+    14898,
+    "Ak’chamel – The Funeral of a Woman Whose Soul Is Trapped"
+   ],
+   [
+    15085,
+    "Síria – Canção de Gato"
+   ]
+  ]
  },
  "THE_OBSERVER_EFFECT": {
   "t": "the observer effect",
