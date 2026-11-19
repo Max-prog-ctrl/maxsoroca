@@ -2064,10 +2064,9 @@
  },
  "BAM": {
   "s": "ارگ بم",
-  "b": "In Dino Buzzati's novel, a young officer named Drogo is sent to a fortress at the edge of the desert. An enemy is expected from the north, from the Tartars. He waits. The years pass in the waiting, and the waiting becomes his life. When the enemy finally appears on the horizon, he is old and ill, and he is sent away. He dies alone in a room at an inn, facing the dark.\n\nIn 1976 Valerio Zurlini filmed the novel in Bam, in the citadel of mud brick that had stood in the Iranian desert for two thousand years and had waited, like the fortress in the book, for something to come.\n\nOn 26 December 2003 it came, from below. An earthquake destroyed the citadel and most of the city in a few seconds. Tens of thousands died. The citadel is being rebuilt brick by brick, from the same earth.",
+  "b": "Lieutenant Drogo's first posting is the Bastiani fortress at the edge of the empire, facing the emptiness of the Tartar desert. No enemy is to be seen, yet the garrison keeps its duties to the letter: the watches, the passwords, the changing of the guard. Years go by in the waiting.\n\nA soldier who comes back from outside the walls without the password is shot by the sentry, because the rules say so. An officer dies of cold in the mountains on a mission to mark the border. Drogo stays. When the Tartars finally appear on the horizon, he is old and ill, and he is sent down in a carriage to make room. He dies alone in a room at an inn.\n\nValerio Zurlini filmed the novel in 1976 in Bam, in the mud-brick citadel that had stood in the Iranian desert for some two thousand years and had waited, like the fortress in the book, for something to come.\n\nOn 26 December 2003 it came, from below. An earthquake destroyed the citadel and most of the city within seconds. Tens of thousands died. The citadel is being rebuilt from the same earth, brick by brick.",
   "img": [
    "img/bam/01",
-   "img/bam/02",
    "img/bam/03",
    "img/bam/04",
    "img/bam/05",
@@ -2077,6 +2076,7 @@
    "img/bam/09",
    "img/bam/10",
    "img/bam/11",
+   "img/bam/w11",
    "img/bam/12",
    "img/bam/13",
    "img/bam/14",
@@ -2085,8 +2085,7 @@
    "img/bam/17",
    "img/bam/18",
    "img/bam/19",
-   "img/bam/20",
-   "img/bam/21"
+   "img/bam/20"
   ],
   "th": "_t.jpg"
  },
