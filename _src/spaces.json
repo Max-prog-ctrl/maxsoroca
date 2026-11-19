@@ -1853,9 +1853,13 @@
   "b": "Adam Smith wrote the words invisible hand three times in his life, no more. The first time, in a young man's essay on the history of astronomy, the hand belonged to Jupiter. The ancients needed it for whatever refused to behave: thunder, a comet, a storm in the wrong season. Later Smith lent the same hand to the market, twice, almost in passing. The economists kept it and forgot where it came from. That is how a god becomes a mechanism. Since then the market has moods, nervous in the morning, panicking by noon, in need of calming, and nobody asks who does the calming.\n\nThe first exchange was not a building. It was a doorstep in Bruges, outside the inn of a family called van der Beurse, where merchants stood in the cold and told each other what things would cost tomorrow. Above the door hung the family's coat of arms, three purses, and the purse, if you follow the word back far enough, is a Greek word for the skin pulled off an animal. Leather, a purse, a family, a square: their name is still on every house where prices are made of rumour.\n\nIn Chișinău the hand has fingers. They lay bacon on a blue scale like a sleeping animal, build towers of toilet paper and give each tower a number, stand sparkling wine next to Coca-Cola so that both look a little lost. Among clocks that no longer agree on the hour lie helmets nobody wears.\n\nOne hand sold newspapers. John Onoje, born in Sierra Leone in 1959, waited more than ten years as a refugee before Moldova let him become Moldovan, in January 2011. That same year parliament could not find a president, so he offered himself. A former head of state talked in public about the colour of his skin. Men beat him, once in a toilet beneath the street, and he went on selling newspapers. In February 2024 he died.\n\nPerhaps that is what the hand does best. It moves things and leaves no fingerprints; you notice it only afterwards, in the price.",
   "img": [
    "img/chisinau/01",
+   "img/chisinau/w22",
    "img/chisinau/02",
+   "img/chisinau/w24",
    "img/chisinau/03",
+   "img/chisinau/w23",
    "img/chisinau/04",
+   "img/chisinau/w25",
    "img/chisinau/05",
    "img/chisinau/06",
    "img/chisinau/07",
@@ -1869,7 +1873,13 @@
    "img/chisinau/15",
    "img/chisinau/16"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "tags": {
+   "img/chisinau/w22": "Chișinău (Moldova)",
+   "img/chisinau/w23": "Chișinău (Moldova)",
+   "img/chisinau/w24": "Chișinău (Moldova)",
+   "img/chisinau/w25": "Chișinău (Moldova)"
+  }
  },
  "GORNO-BADAKHSHAN": {
   "s": "Вилояти Мухтори Кӯҳистони Бадахшон",
