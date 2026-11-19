@@ -91,9 +91,10 @@
  },
  "COCOONS": {
   "s": "ΦΆΚΕΛΟΙ ΤΗΣ ΖΩΉΣ",
-  "b": "Life begins where something is wrapped. A membrane around a cell, an atmosphere around a planet: an inside appears, and only an inside can be lived in.\n\nThe later shells are built by states, and they are built to be seen from outside. From a window of the Palace of the Parliament in Bucharest the boulevard below runs straight towards the haze, as if the city had been drawn with a ruler. In Dushanbe new palaces with turrets rise behind an old Soviet star. In Kryvyi Rih the city follows a seam of iron ore for more than a hundred kilometres, so that it is long rather than large.\n\nKaji-Say on the southern shore of Issyk-Kul was founded in 1947 for brown coal. Uranium was then taken out of the ash of that coal, and prisoners were sent to dig. Today you look through an empty window frame at the blocks that remained, with red mountains behind them.\n\nThe hill from which one sees Marzahn was made, too. Between 1981 and 1991 the Ahrensfelder Berge served as a dump for building rubble, so that one of the largest new estates in Europe is now looked at from a heap of its own leftovers.\n\nFrom outside every shell looks like the next one. Behind each window someone has hung their own curtain, collected porcelain, let pipe smoke settle in the wallpaper until the room smells of one person only. In the evening the lights go on one after another, and for a moment the façade shows who is home.",
+  "b": "Life begins where something is wrapped. A membrane around a cell, an atmosphere around a planet: an inside appears, and only an inside can be lived in.\n\nThe later shells are built by states, and they are built to be seen from outside. From a window of the Palace of the Parliament in Bucharest the boulevard below runs straight towards the haze, as if the city had been drawn with a ruler. In Tbilisi the Ministry of Highway Construction, finished in 1975, stacks its offices crosswise like bridges over a road that is not there; since 2007 a bank has lived in it. In Dushanbe new palaces with turrets rise behind an old Soviet star. In Kryvyi Rih the city follows a seam of iron ore for more than a hundred kilometres, so that it is long rather than large.\n\nKaji-Say on the southern shore of Issyk-Kul was founded in 1947 for brown coal. Uranium was then taken out of the ash of that coal, and prisoners were sent to dig. Today you look through an empty window frame at the blocks that remained, with red mountains behind them.\n\nThe hill from which one sees Marzahn was made, too. Between 1981 and 1991 the Ahrensfelder Berge served as a dump for building rubble, so that one of the largest new estates in Europe is now looked at from a heap of its own leftovers.\n\nFrom outside every shell looks like the next one. Behind each window someone has hung their own curtain, collected porcelain, let pipe smoke settle in the wallpaper until the room smells of one person only. In the evening the lights go on one after another, and for a moment the façade shows who is home.",
   "img": [
    "img/huellen/01",
+   "img/huellen/w02",
    "img/huellen/04",
    "img/huellen/06",
    "img/huellen/08",
@@ -104,9 +105,11 @@
    "img/huellen/18",
    "img/huellen/03",
    "img/huellen/21",
+   "img/huellen/w01",
    "img/huellen/13",
    "img/huellen/19",
    "img/huellen/09",
+   "img/huellen/w06",
    "img/huellen/23",
    "img/huellen/17",
    "img/huellen/20",
@@ -1840,7 +1843,9 @@
    "img/huellen/20": "Kaji-Say, Issyk-Kul · Кажы-Сай (Kyrgyzstan)",
    "img/huellen/18": "Astana (Kazakhstan)",
    "img/huellen/19": "Issyk-Kul (Kyrgyzstan)",
-   "img/huellen/22": "Kottbusser Tor, Berlin (Germany)"
+   "img/huellen/22": "Kottbusser Tor, Berlin (Germany)",
+   "img/huellen/w02": "Tbilisi, former Ministry of Highway Construction · თბილისი (Georgia)",
+   "img/huellen/w01": "Dushanbe · Душанбе (Tajikistan)"
   }
  },
  "CHIȘINĂU": {
