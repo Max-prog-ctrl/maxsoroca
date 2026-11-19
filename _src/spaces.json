@@ -40,7 +40,10 @@
    "img/caucasus/17": "the road south (Georgia)",
    "img/caucasus/08": "Kartsakhi, Posof (Georgia / Turkey)",
    "img/caucasus/20": "Kutaisi (Georgia)",
-   "img/caucasus/21": "near Kutaisi (Georgia)"
+   "img/caucasus/21": "near Kutaisi (Georgia)",
+   "img/caucasus/w01": "Caucasus (Georgia)",
+   "img/caucasus/01": "the pass to Omalo (Georgia)",
+   "img/caucasus/w10": "on the way to David Gareja (Georgia)"
   },
   "map": "CAUCASUS"
  },
@@ -1860,9 +1863,13 @@
    "img/chisinau/w23",
    "img/chisinau/04",
    "img/chisinau/w25",
+   "img/chisinau/w21",
    "img/chisinau/05",
+   "img/chisinau/w19",
    "img/chisinau/06",
+   "img/chisinau/w20",
    "img/chisinau/07",
+   "img/chisinau/w16",
    "img/chisinau/08",
    "img/chisinau/09",
    "img/chisinau/10",
@@ -1873,29 +1880,7 @@
    "img/chisinau/15",
    "img/chisinau/16"
   ],
-  "th": "_t.jpg",
-  "tags": {
-   "img/chisinau/w22": "Chișinău (Moldova)",
-   "img/chisinau/w23": "Chișinău (Moldova)",
-   "img/chisinau/w24": "Chișinău (Moldova)",
-   "img/chisinau/w25": "Chișinău (Moldova)",
-   "img/chisinau/01": "Chișinău (Moldova)",
-   "img/chisinau/02": "Chișinău (Moldova)",
-   "img/chisinau/03": "Chișinău (Moldova)",
-   "img/chisinau/04": "Chișinău (Moldova)",
-   "img/chisinau/05": "Chișinău (Moldova)",
-   "img/chisinau/06": "Chișinău (Moldova)",
-   "img/chisinau/07": "Chișinău (Moldova)",
-   "img/chisinau/08": "Chișinău (Moldova)",
-   "img/chisinau/09": "Chișinău (Moldova)",
-   "img/chisinau/10": "Chișinău (Moldova)",
-   "img/chisinau/11": "Chișinău (Moldova)",
-   "img/chisinau/12": "Chișinău (Moldova)",
-   "img/chisinau/13": "Chișinău (Moldova)",
-   "img/chisinau/14": "Chișinău (Moldova)",
-   "img/chisinau/15": "Chișinău (Moldova)",
-   "img/chisinau/16": "Chișinău (Moldova)"
-  }
+  "th": "_t.jpg"
  },
  "GORNO-BADAKHSHAN": {
   "s": "Вилояти Мухтори Кӯҳистони Бадахшон",
