@@ -28,22 +28,22 @@
    "d": 22
   },
   "tags": {
-   "img/caucasus/07": "Stepantsminda, Kazbek (Georgia)",
-   "img/caucasus/04": "Dartlo (Georgia)",
-   "img/caucasus/06": "Chontio (Georgia)",
-   "img/caucasus/18": "Abano Pass, on the way to Omalo (Georgia)",
-   "img/caucasus/05": "marshrutka to Shatili (Georgia)",
-   "img/caucasus/19": "Shatili (Georgia)",
-   "img/caucasus/09": "Pankisi (Georgia)",
-   "img/caucasus/24": "Pankisi (Georgia)",
+   "img/caucasus/07": "Stepantsminda, Kazbek (Khevi)",
+   "img/caucasus/04": "Dartlo (Tusheti)",
+   "img/caucasus/06": "Chontio (Tusheti)",
+   "img/caucasus/18": "Abano Pass, on the way to Omalo (Tusheti)",
+   "img/caucasus/05": "marshrutka to Shatili (Khevsureti)",
+   "img/caucasus/19": "Shatili (Khevsureti)",
+   "img/caucasus/09": "Pankisi (Kakheti)",
+   "img/caucasus/24": "Pankisi (Kakheti)",
    "img/caucasus/10": "the road south (Georgia)",
    "img/caucasus/17": "the road south (Georgia)",
-   "img/caucasus/08": "Kartsakhi, Posof (Georgia / Turkey)",
-   "img/caucasus/20": "Kutaisi (Georgia)",
-   "img/caucasus/21": "near Kutaisi (Georgia)",
+   "img/caucasus/08": "Kartsakhi, Posof (Javakheti / Ardahan)",
+   "img/caucasus/20": "Kutaisi (Imereti)",
+   "img/caucasus/21": "near Kutaisi (Imereti)",
    "img/caucasus/w01": "Caucasus (Georgia)",
-   "img/caucasus/01": "Abano Pass, on the way to Omalo (Georgia)",
-   "img/caucasus/w10": "on the way to David Gareja (Georgia)"
+   "img/caucasus/01": "by the river (Tusheti)",
+   "img/caucasus/w10": "on the way to David Gareja (Kakheti)"
   },
   "map": "CAUCASUS"
  },
@@ -2030,7 +2030,7 @@
  },
  "SOROCA": {
   "s": "Сороки (Бессарабія)",
-  "b": "Soroca means magpie, in Russian and in Ukrainian. The bird is a crow, black and white, and is said to steal anything that shines. In Europe it has been the witch's companion and the bird of the gallows; in Korea and China it brings good news.\n\nThe town lies on the Dniester, where Genoese merchants once crossed the river. In 1499 a fortress was first mentioned here, a wooden one, and later it was rebuilt in stone as a perfect circle, five towers on a ring, guarding the eastern edge of the principality of Moldavia. It still stands. From above it looks like a clock without hands.\n\nAbove the town, on a hill, the Roma of Moldova built houses that copy the Bolshoi Theatre, the Capitol, a cathedral; some were never finished. People call Soroca the capital of the Roma. It has no other capital to compete with.",
+  "b": "Soroca (Romanian), in Russian and Ukrainian Сороки (Soroki, \"magpie\"). The Moldovan town lies in historical Bessarabia, on the Dniester.\n\nIn the 12th and 13th centuries Genoese merchants crossed the river here. Within the principality of Moldavia (around 1350 to 1538) the fortress was of great military importance for the protection of the eastern border against the Tatars. Near the village of Lipnic, in the north, the Moldavian army of Stefan cel Mare defeated the Tatars of the Golden Horde under Ahmed Khan on 20 August 1470. Many of them drowned in the Dniester as they fled. Soroca was first mentioned in a document in 1499.\n\nThe name Bessarabia goes back to the Basarab, a Wallachian dynasty of princes who ruled the region in the 13th and 14th centuries, and has nothing to do with Arabia. Originally it meant only the southern third of the country, Terra Bassarabum in Latin. After Russia took over in 1812, the name was given to the whole area between the Prut and the Dniester.\n\nToday Soroca has some 22,000 inhabitants. Many of them are Roma, which makes it their unofficial capital in Moldova. On a hill above the town, called Gypsy Hill, families built houses after the Bolshoi Theatre in Moscow and the Capitol in Washington. Some are finished, some half, some are falling apart; many of the owners have died or gone abroad. One of them, a man who called himself king of the Roma, is said to have built his Capitol from the picture on a dollar note. It was the only picture he had.\n\nThe magpie (Pica pica) is a bird of the crow family. It lives in many parts of Europe and Asia and in North Africa; in Europe it likes to stay close to people. Because of its black and white feathers and long tail, anyone can recognise it.\n\nIn Germanic mythology the magpie was both a messenger of the gods and the bird of Hel, goddess of death, and so it became a bringer of mischief. As the thieving magpie it was unpopular in the Middle Ages too, as the witches' companion and the bird of the gallows. In Asia, by contrast, it is traditionally a talisman.\n\nThe Cheyenne and the Lakota tell of a time when the buffalo ate the humans. A race was to decide who would eat whom. The humans did not run themselves; four birds flew for them, and one of them was the American magpie (Pica hudsonia). The buffalo runner led the whole way. Just before the finish the magpie dropped from the sky and passed her. Since then the humans hunt the buffalo, and they never eat the magpie.",
   "img": [
    "img/soroca/01",
    "img/soroca/02",
