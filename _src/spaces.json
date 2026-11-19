@@ -31,7 +31,7 @@
    "img/caucasus/07": "Stepantsminda, Kazbek (Georgia)",
    "img/caucasus/04": "Dartlo (Georgia)",
    "img/caucasus/06": "Chontio (Georgia)",
-   "img/caucasus/18": "the pass to Omalo (Georgia)",
+   "img/caucasus/18": "Abano Pass, on the way to Omalo (Georgia)",
    "img/caucasus/05": "marshrutka to Shatili (Georgia)",
    "img/caucasus/19": "Shatili (Georgia)",
    "img/caucasus/09": "Pankisi (Georgia)",
@@ -42,7 +42,7 @@
    "img/caucasus/20": "Kutaisi (Georgia)",
    "img/caucasus/21": "near Kutaisi (Georgia)",
    "img/caucasus/w01": "Caucasus (Georgia)",
-   "img/caucasus/01": "the pass to Omalo (Georgia)",
+   "img/caucasus/01": "Abano Pass, on the way to Omalo (Georgia)",
    "img/caucasus/w10": "on the way to David Gareja (Georgia)"
   },
   "map": "CAUCASUS"
@@ -88,7 +88,17 @@
    "img/belarus/08": "Island of Tears, Minsk (Belarus)",
    "img/belarus/04": "Khatyn (Belarus)",
    "img/belarus/09": "Kurapaty (Belarus)",
-   "img/belarus/23": "Kurapaty, Maya Kliashtornaya (Belarus)"
+   "img/belarus/23": "Kurapaty, Maya Kliashtornaya (Belarus)",
+   "img/belarus/11": "near Minsk (Belarus)",
+   "img/belarus/w09": "Strumen (Belarus)",
+   "img/belarus/w05": "at the barrier to Strumen (Belarus)",
+   "img/belarus/13": "a village near Strumen (Belarus)",
+   "img/belarus/15": "a village near Strumen (Belarus)",
+   "img/belarus/02": "a village near Strumen (Belarus)",
+   "img/belarus/w10": "a village near Strumen (Belarus)",
+   "img/belarus/22": "Minsk (Belarus)",
+   "img/belarus/10": "Minsk (Belarus)",
+   "img/belarus/16": "Minsk (Belarus)"
   },
   "map": "BELARUS"
  },
