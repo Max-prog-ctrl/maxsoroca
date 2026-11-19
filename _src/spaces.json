@@ -1,7 +1,7 @@
 {
  "CAUCASUS": {
   "s": "Кавказ • კავკასიონი • Կովկաս • Καύκασος • قفقاز • קווקז",
-  "b": "Persian cosmographers placed a mountain at the rim of the world and called it Qaf. It was made of green emerald, and the colour of the sky was its reflection. Behind it, they said, there was nothing, and the nothing went on.\n\nSome readers moved Qaf to the Caucasus, because the names sound alike: Kūh-e Qāf, Ǧabal al-Qāf. Others left it where no map reaches. The Altai peoples tell of a similar wall, and nobody has settled which mountains are the last ones.\n\nThe photographs come from the valleys that sit closest to that edge: Khevsureti, the land of gorges, where people wore chain mail into the twentieth century; Tusheti with its stone towers, reachable by one road that closes for half the year; and the Pankisi Valley. In all three, the edge of the world is a few hours' walk uphill.\n\nOn the way, in no particular order: a church on a green knoll below Kazbek, seen once in 2006 and never quite in focus since; Dartlo; the empty towers of Chontio at the end of the valley; the pass up to Omalo, behind a flock of sheep; Shatili, through the window of a marshrutka; a guest room in Pankisi; a hammock on the road south towards the Armenian border; the concrete seam that leads to Posof and on to Kars; a wall near Kutaisi that says what games my friends play.\n\nIn a roadside bar on the road south, a Polish song from the sixties was playing, about a walk along a wild beach, a long way from any sea.\n\nSomebody in Pankisi told me of a man who had once been taken by a djinn and kept for a few days in a cave up in the mountains. I meant to find him and missed him. Perhaps he had only been drunk. Or the edge of the world is closer than a few hours.",
+  "b": "Persian cosmographers placed a mountain at the rim of the world and called it Qaf. It was made of green emerald, and the colour of the sky was its reflection. Behind it, they said, there was nothing, and the nothing went on.\n\nSome readers moved Qaf to the Caucasus, because the names sound alike: Kūh-e Qāf, Ǧabal al-Qāf. Others left it where no map reaches. The Altai peoples tell of a similar wall, and nobody has settled which mountains are the last ones.\n\nThe photographs come from the valleys that sit closest to that edge: Khevsureti, the land of gorges, where people wore chain mail into the twentieth century; Tusheti with its stone towers, reachable by one road that closes for half the year; and the Pankisi Valley. In all three, the edge of the world is a few hours' walk uphill.\n\nOn the way, in no particular order: a church on a green knoll below Kazbek, seen once in 2006 and never quite in focus since; Dartlo; the empty towers of Chontio at the end of the valley; the pass up to Omalo, behind a flock of sheep; Shatili, through the window of a marshrutka; a guest room in Pankisi; a hammock in Udabno, on the way to David Gareja, close to the Azerbaijani border; the concrete seam that leads to Posof and on to Kars; a wall near Kutaisi that says what games my friends play.\n\nIn a roadside bar on the way to David Gareja, a Polish song from the sixties was playing, about a walk along a wild beach, a long way from any sea.\n\nSomebody in Pankisi told me of a man who had once been taken by a djinn and kept for a few days in a cave up in the mountains. I meant to find him and missed him. Perhaps he had only been drunk. Or the edge of the world is closer than a few hours.",
   "img": [
    "img/caucasus/w01",
    "img/caucasus/07",
@@ -36,14 +36,14 @@
    "img/caucasus/19": "Shatili (Khevsureti)",
    "img/caucasus/09": "Pankisi (Kakheti)",
    "img/caucasus/24": "Pankisi (Kakheti)",
-   "img/caucasus/10": "the road south (Georgia)",
-   "img/caucasus/17": "the road south (Georgia)",
+   "img/caucasus/10": "Udabno (Kakheti)",
+   "img/caucasus/17": "Udabno (Kakheti)",
    "img/caucasus/08": "Kartsakhi, Posof (Javakheti / Ardahan)",
    "img/caucasus/20": "Kutaisi (Imereti)",
    "img/caucasus/21": "near Kutaisi (Imereti)",
    "img/caucasus/w01": "Caucasus (Georgia)",
    "img/caucasus/01": "by the river (Tusheti)",
-   "img/caucasus/w10": "on the way to David Gareja (Kakheti)"
+   "img/caucasus/w10": "Udabno, on the way to David Gareja (Kakheti)"
   },
   "map": "CAUCASUS"
  },
@@ -1931,19 +1931,19 @@
   ],
   "th": "_t.jpg",
   "tags": {
-   "img/gornobadakhshan/05": "Bartang · Бартанг (Tajikistan)",
-   "img/gornobadakhshan/06": "Jizev · Джизев (Tajikistan)",
-   "img/gornobadakhshan/07": "Jizev · Джизев (Tajikistan)",
-   "img/gornobadakhshan/08": "Afghanistan, across the Panj",
-   "img/gornobadakhshan/09": "Langar · Лангар (Tajikistan)",
-   "img/gornobadakhshan/13": "Bulunkul · Булункуль (Tajikistan)",
-   "img/gornobadakhshan/14": "Bulunkul · Булункуль (Tajikistan)",
-   "img/gornobadakhshan/16": "Khorugh · Хорог (Tajikistan)",
-   "img/gornobadakhshan/17": "Khorugh · Хорог (Tajikistan)",
-   "img/gornobadakhshan/18": "Khorugh · Хорог (Tajikistan)",
-   "img/gornobadakhshan/w16": "Afghanistan, across the Panj",
-   "img/gornobadakhshan/w18": "Bulunkul · Булункуль (Tajikistan)",
-   "img/gornobadakhshan/w22": "Jizev · Джизев (Tajikistan)"
+   "img/gornobadakhshan/05": "Bartang · Бартанг (Pamir)",
+   "img/gornobadakhshan/06": "Jizev · Джизев (Bartang)",
+   "img/gornobadakhshan/07": "Jizev · Джизев (Bartang)",
+   "img/gornobadakhshan/08": "across the Panj (Afghan Badakhshan)",
+   "img/gornobadakhshan/09": "Langar · Лангар (Wakhan)",
+   "img/gornobadakhshan/13": "Bulunkul · Булункуль (Murghab)",
+   "img/gornobadakhshan/14": "Bulunkul · Булункуль (Murghab)",
+   "img/gornobadakhshan/16": "Khorugh · Хорог (Shughnan)",
+   "img/gornobadakhshan/17": "Khorugh · Хорог (Shughnan)",
+   "img/gornobadakhshan/18": "Khorugh · Хорог (Shughnan)",
+   "img/gornobadakhshan/w16": "across the Panj (Afghan Badakhshan)",
+   "img/gornobadakhshan/w18": "Bulunkul · Булункуль (Murghab)",
+   "img/gornobadakhshan/w22": "Jizev · Джизев (Bartang)"
   },
   "map": "TAJIKISTAN"
  },
