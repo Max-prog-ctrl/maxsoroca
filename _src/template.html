@@ -21,6 +21,7 @@ li{break-inside:avoid}
 #txt .cr{color:#888;margin:-1em 0 1.6em;font-size:.92em}
 #txt p{margin:0 0 1em}
 #rd{position:fixed;left:12px;bottom:12px;width:5px;height:5px;background:#d7141a;border:0!important;display:block;opacity:.85}#rd:hover{opacity:1;box-shadow:0 0 6px #d7141a}
+#wc{position:fixed;right:24px;bottom:8px;color:#2a2a2a;font:11px "Courier New",monospace;border:0;letter-spacing:.05em;pointer-events:none;user-select:none}
 #egg{position:fixed;right:10px;bottom:8px;color:#1a1a1a;cursor:pointer;border:0;font-size:12px}
 #egg:hover{color:#444}
 .gl{display:inline-block}
@@ -125,7 +126,7 @@ p.sk{transition:transform 9s ease-in,filter 9s ease-in,opacity 9s ease-in}p.sk.d
 <div class="sec">sounds</div><ol id="L-sounds"></ol>
 </div>
 <div id="txt"></div>
-<a id="egg" title="">°</a>
+<span id="wc"></span><a id="egg" title="">°</a>
 <a id="rd" href="https://rashomotion.de" target="_blank" rel="noopener" aria-label=""></a>
 <div id="kc"></div><div id="subs"></div><div id="bye">schüssi</div><div id="lb"><img id="lbi" alt=""><div class="nv pv"></div><div class="nv nx"></div><div class="cap"><a id="lbp">&lt;</a><span id="lbn"></span><a id="lbx">x</a><a id="lbf">&gt;</a></div></div>
 <canvas id="gl"></canvas>
@@ -500,6 +501,15 @@ addEventListener('hashchange',lbClose);
 (function(){var ep=document.getElementById('ep');if(!ep)return;var E=[['鹊桥','quèqiáo'],['오작교','ojakgyo'],['сорока','soroka'],['skata','skata']],i=Math.random()*E.length|0;
  function set(){ep.textContent='/ '+E[i][0]+' /';ep.title=E[i][1]}set();
  (function n(){setTimeout(function(){ep.classList.remove('flk');void ep.offsetWidth;ep.classList.add('flk');setTimeout(function(){i=(i+1+(Math.random()*(E.length-1)|0))%E.length;set()},250);n()},R(25000,50000))})()})();
+// how many words are here: counted, but the count does not hold still
+(function(){var wc=document.getElementById('wc');if(!wc)return;var n=0;
+ try{Object.keys(W).forEach(function(k){var e=W[k];['b','cr','s'].forEach(function(f){if(typeof e[f]==='string')n+=e[f].split(/\s+/).filter(Boolean).length})})}catch(x){}
+ if(!n)n=4000;var v=n+(Math.random()*n*.12-n*.06|0);function show(){wc.textContent=String(v)}show();
+ (function t(){setTimeout(function(){if(!document.hidden){var r=Math.random();
+  if(r<.55)v+=(Math.random()*9|0)+1;else if(r<.85)v-=(Math.random()*7|0)+1;else if(r<.95)v+=(Math.random()*400|0)-170;else v=n+(Math.random()*n*.3-n*.15|0);
+  if(v<1)v=n;show()}t()},R(4000,23000))})()})();
+// once in a while the tab forgets its name
+(function(){var o=document.title;(function f(){setTimeout(function(){if(!document.hidden&&!location.hash){document.title='boltzmann brain no. '+(Math.random()<.3?17:(Math.random()*9973|0)+1);setTimeout(function(){document.title=o},R(900,1600))}f()},R(70000,210000))})()})();
 // a few links stay blue, the rest black and white
 (function(){var A=[].slice.call(document.querySelectorAll('#home ol a'));for(var j=0;j<3&&A.length;j++)A.splice(Math.random()*A.length|0,1)[0].classList.add('bl')})();
 var buf='';addEventListener('keydown',function(e){if(e.key==='Escape'){hideIST();return}buf=(buf+e.key).slice(-6).toLowerCase();if(/soroca$|ist$/.test(buf)){buf='';showIST()}});
