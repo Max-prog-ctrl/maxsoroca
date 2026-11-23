@@ -868,7 +868,11 @@
     189,
     190
    ]
-  }
+  },
+  "ext": [
+   "insularity-text.html",
+   "what is said and written in it"
+  ]
  },
  "CHAPÜLÉE": {
   "t": "chapülée",

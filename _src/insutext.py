@@ -1,0 +1,160 @@
+# builds ../insularity-text.html  (run from _src: python3 insutext.py)
+import json, html
+
+ids = json.load(open('works.json'))['INSULARITY']['mos']['ids']
+STEP = 17.12  # seconds between extracted stills
+
+def T(tc):
+    h, m, s, f = map(int, tc.split(':'))
+    return h * 3600 + m * 60 + s + f / 25
+
+# fixed lines: (time, kind, text)
+FIX = [
+    ('00:00:34:00', 'card', 'INSULARITY'),
+    ('00:01:42:21', 'card', 'NON-TIME'),
+    ('00:01:49:23', 'line', 'I merely see infinities everywhere, which enclose me like an atom and like a shadow that only lasts for an unrepeatable moment.'),
+    ('00:08:12:07', 'line', 'You learn about a place only with time, and experience it through it.'),
+    ('00:08:17:20', 'line', 'That every where and when finds its origin in a point is as vivid as a black sun – a mythical doctrine.'),
+    ('00:13:14:01', 'card', 'KAMBRIAN EXPLOSION'),
+    ('00:13:20:19', 'line', 'The soul is an underwater being, it is fluid and constantly changing, it needs places where it can work.'),
+    ('00:20:31:00', 'card', 'LONGUE DURÉE'),
+    ('00:27:56:00', 'card', 'ANTHROPOZÄN'),
+    ('00:38:45:00', 'card', 'MILKOMEDA'),
+    ('00:44:28:00', 'card', 'ETERNALISMUS'),
+    ('00:52:55:14', 'end', 'Dedicated to Hartmut. … thank you for that cosmic iron.'),
+    ('00:54:24:24', 'end', 'The text is based on fragments from Stephen Galfard, The Universe in Your Hand · Raoul Schrott, Erste Erde. Epos · Joseph Scheppach, The Secret Consciousness of Plants · Boris Groys, Anton Vidokle, Cosmism · Katerina Kopaka, Questioning Islands. Voice: Jessica.'),
+]
+
+BUS = ('00:33:28:23', ['Melikra', 'Thyrsakos', 'Aigontha', 'Oneira', 'Nyktheon', 'Pelagaia'])
+
+# permuting slots: time, list of variants (first = as heard in the film where available)
+SLOTS = [
+ ('00:02:17:19', [
+  "In the vast expanse of the cosmos, where space and time converge in a dance of unfathomable mystery, lies the genesis of all that we know. Beyond the veil of the last scattering, where quantum potentialities intertwine, lies a realm of boundless possibilities. Here, within the infinite layers of existence, we encounter the enigma of the Big Bang, the cosmic event that ignited the flames of creation and set the universe into motion. Shrouded in a cloak of primordial chaos. 13.8 billion years ago, in the infancy of cosmic time, matter existed in a state of unimaginable density, where the very fabric of reality had yet to take form. Time itself was but a fleeting concept, and the laws that govern our universe had yet to be written.",
+  "The origin of the cosmos is situated beyond the confines of space and time, concealed by a barrier known as the surface of the last scattering. This barrier encompasses and overlays all potential quantum states. Beyond this barrier, an infinite number of other surfaces exist. One of these surfaces is referred to as the Big Bang, which initiated the universe's expansion. Another surface veils the phenomenon that the Big Bang gave rise to. This lies outside the bounds of our conventional reality. During this event, all matter was compressed into an incredibly minuscule space of nearly boundless density. A singularity, or Aleph. At that juncture, the conventional understanding of time as we currently comprehend it had yet to take shape.",
+  "The cosmos' origin lies beyond space and time, concealed by the surface of the last scattering. This barrier overlays all potential quantum states. Beyond it, an infinite number of other surfaces exist. One is the Big Bang, initiating the universe's expansion, while another veils the phenomenon arising from it, lying beyond conventional reality's bounds. All matter was compressed into an incredibly dense space. Our understanding of time hadn't formed then.",
+  "The cosmos, a realm shrouded in mystery and wonder, holds within it the genesis of all existence, concealed beyond the confines of space and time, veiled by the enigmatic surface of the last scattering. This barrier, a tapestry of potential quantum states, obscures from our sight the infinite layers of reality that lie beyond.",
+  "In the boundless depths of the cosmos, where the veils of the unknown defy imagination and the terrors of forgotten eons reverberate through the void, lies the origin of all our fears. Beyond the veil of the last scattering, where quantum uncertainties converge, lurks a realm of unspeakable horror, where the boundaries of reality blur and madness reigns supreme.",
+ ]),
+ ('00:04:48:08', [
+  "One second post-Big Bang, neutrinos merge to form the cosmic background while the first black holes emerge. Two minutes later, atomic nucleosynthesis conditions are met, leading to the fusion of protons and neutrons into heavier elements. Initially, deuterium forms, transitioning to helium over twenty minutes. During this period the cosmos is too hot for neutral atom formation and photon propagation, enveloped in an opaque plasma.",
+  "In the first picoseconds of cosmic time, the laws of today's physics do not yet apply. Just one second after the Big Bang, the neutrinos break away and merge with each other, forming the cosmic background. At the same time, the first black holes are starting to emerge. Two minutes later, the conditions for the synthesis of atomic nuclei are fulfilled. About a quarter of the protons and all the neutrons fuse to form more substantial elements. An all-pervasive, opaque plasma envelops all.",
+  "As the seconds unfolded in the wake of the Big Bang, the cosmos underwent a symphony of transformation. Neutrinos merged, black holes birthed, and the alchemy of atomic nuclei synthesis began its celestial dance. Deuterium gave way to helium, and the universe, shrouded in a searing plasma, danced to the rhythm of cosmic evolution.",
+  "As the ages passed, the universe unfolded in a symphony of cosmic terror. Neutrinos merged in a grotesque ballet of annihilation, while black holes consumed the essence of reality itself.",
+ ]),
+ ('00:05:37:08', [
+  "About 47,000 years after the Big Bang, the universe cools, allowing matter to dominate its behavior. Another 53,000 years later, the first molecule appears – the helium hydride ion. After 370,000 years, the universe cools sufficiently for neutral atoms to form, marking its first permeability to light. However, hydrogen clouds collapse slowly, limiting their ability to become a significant light source. New atoms, mainly hydrogen and helium with traces of lithium, quickly assume their lowest energy state and emit photons, forming the cosmic background radiation still detectable today.",
+  "About 47,000 years after the Big Bang, the universe cools, so that matter, not radiation, determines the behavior of the cosmos. 370,000 years after the beginning of time, the universe finally cools down enough for neutral atoms to form. This makes the universe permeable to light for the first time. These photons persist and can still be detected today as cosmic background radiation.",
+  "Eons passed, and the universe cooled, yielding to the emergence of matter as the dominant force. The helium hydride ion made its celestial debut, followed by the birth of neutral atoms and the dawn of cosmic light.",
+  "Eons drifted by like phantoms in the night, as the universe cooled and the shadows deepened. The helium hydride ion emerged from the stygian depths, heralding the dawn of a new age of cosmic terror.",
+ ]),
+ ('00:10:04:23', [
+  "In the crucible of time, Earth emerged, a celestial jewel adrift in the cosmic ocean. The collision with a Mars-sized object birthed the moon, shaping the tides of our world.",
+  "About 4 billion years ago, a Mars-sized body from the vastness of space hits the hitherto lifeless Earth with great force. The piece peeled off during the impact becomes our satellite, which gives the oceans their tidal range. Membranes of lipids form in the primordial ocean Tethys. They develop into protein clumps and then into cells that have a kind of skin. This makes them closed and confined, and thus the first living things on the planet.",
+  "Around 4 billion years ago, a Mars-sized object collided with Earth, forming the Moon and influencing ocean tides. Lipid membranes formed in the primordial ocean of Tethys, evolving into protein clusters and eventually into cells.",
+  "In the crucible of time, Earth emerged as a charnel house of cosmic horrors, a haunted relic adrift in the void. The collision with a celestial abomination birthed the Moon, casting its eldritch light upon a world gripped by fear and despair.",
+ ]),
+ ('00:11:20:00', [
+  "Two billion years ago, an ozone belt begins to form around the atmosphere. It shields the Earth from the sun's UV radiation. Mitochondria, the power plants of our cells, can be traced back to proteobacteria, and chloroplasts, which transform light into life in plants, are undigested blue-green algae. Electrons are quantum waves in an invisible sea. They only consist of themselves. Everything flows and vibrates. Strings, branes, and fields. Every drop of water was once part of Tethys, just as every squall is part of the Scirocco.",
+  "Two billion years ago, an ozone layer formed, shielding Earth from UV radiation and enabling the evolution of complex life. Strings, branes, and fields define reality. Every drop of water was once part of the ancient ocean Tethys.",
+  "Through the ages, life flourished and evolved, guided by the hand of cosmic forces. Every drop of water, every gust of wind, echoes the ancient whispers of the cosmos, a testament to the interconnectedness of all things.",
+ ]),
+ ('00:13:35:09', [
+  "The world-spanning primordial ocean Tethys surrounds the global supercontinent Pangea in the late Paleozoic and early Mesozoic. Pangea is the last of the primordial continents that enclosed all of Earth's landmasses in the Permian and persisted into the Jurassic, 150 million years ago, when the great mass extinction of species occurred, and the evolution of the dinosaurs began.",
+  "Francis Crick says that the molecule of life is of extraterrestrial origin. Many animistic populations see this similarly, only there it is often a snake which came from the cosmos. The Cambrian Explosion is, so to speak, the zoological Big Bang. In the rock layers, fossils of first sponges, corals, annelids, crabs, and first vertebrates are found. Until today, it is unclear why so many different body forms developed at the same time and why so many of them disappeared.",
+  "The Cambrian Explosion witnessed a rapid diversification of life forms, including sponges, corals, annelids, crabs, and vertebrates, likely driven by the development of complex features such as skeletal armor and sensory organs.",
+  "From the primordial ocean of Tethys arose the first stirrings of life, a grotesque menagerie of writhing horrors that crawled from the depths.",
+ ]),
+ ('00:23:00:00', [
+  "50 or even 100,000 years ago, people settled the far-flung island world of Oceania. One trick was to sail against the wind in order to be able to use the tailwind when nothing could be found. In ancient times, people spoke of thalassocracy, the rule of the sea. The Minoans were very good seafarers and traded with Egypt, Mesopotamia, and as far as the Hindu Kush, where lapis lazuli is found. Alternatively, the history of the islands began many hundreds of millions of years ago, before Pangea was formed, in the depths of Panthalassa and Tethys.",
+  "50,000 to 100,000 years ago, humans settled the distant islands of Oceania, employing techniques like sailing against the wind to harness favorable tailwinds.",
+  "As humanity emerged from the shadows of prehistory, we embarked on a journey of exploration and discovery, harnessing the winds of the cosmos to chart our course. The islands of Oceania bore witness to our ingenuity.",
+  "The islands of Oceania bore witness to our folly, as we unleashed the horrors of the cosmos upon ourselves.",
+ ]),
+ ('00:29:30:00', [
+  "In the noosphere, life is transformed by a new sphere of reason and communication – an optimistic variant of the Anthropocene. To be human is to be dependent on cosmic events that are uncontrollable and unknown. This is the origin of modern fear, the fear of being part of the cosmos. The will of an individual is the will of the universe.",
+  "Human existence is intertwined with unpredictable cosmic events, giving rise to a modern fear of being part of the cosmos. All human brain processes stem from the wider universe, making individual will an extension of cosmic will.",
+  "In the tapestry of existence, the human mind stands as a beacon of consciousness, a fragile vessel adrift in the cosmic sea. We are but ephemeral beings, caught in the ebb and flow of time.",
+  "Yet, amidst the vastness of the cosmos, one question lingers – what is our place within it? Are we but fleeting shadows in the cosmic dance?",
+ ]),
+ ('00:36:00:00', [
+  "The tragedy of being is that the human mind is aware of its material origin. Without thought, there can be no matter. At death, the atoms of a human being pass into an inorganic state. On average, it takes 100 million years for the atom to find a new embodiment. Time, like the atom, passes like nothing.",
+  "The human mind's awareness of its material origin is a tragic aspect of existence. Without thought, matter cannot exist. At death, human atoms transition to an inorganic state, taking about 100 million years to find new forms.",
+  "As we gaze into the abyss, we are confronted with the unsettling truth of our own material origin, a tragic aspect of our existence that binds us to the wider cosmos.",
+  "We are but playthings of the malevolent forces that lurk in the darkness.",
+ ]),
+ ('00:43:03:15', [
+  "Time is not an arrow, but a landscape. It connects us to people over generations. Not linear, but rhizomatic and topological, in which the future can also be the past. There are other universes everywhere, from other dimensions. The ends of the dimensions can move freely within the dimensions, but cannot leave them. Behind the observable reality, there are infinite multiverses, bubble universes that are like drops of oil on a surface of water. They form drops within these drops. What is time? Is time real and does it exist? Past, present and future are one, equally given and real. And so together they describe a dimension in which all places and all future events are one and already inherent. This is eternalism.",
+  "Other universes exist in different dimensions. Behind observable reality lie infinite multiverses, bubble universes resembling drops of oil on water's surface. What is time? Is it real? Past, present, and future are equally real, describing a dimension where all places and events are inherent – eternalism.",
+  "And yet, amidst the chaos and uncertainty, there exists a glimmer of hope. For beyond the veil of observable reality lies a realm of infinite possibility, where the past, present, and future converge in a timeless dance of eternalism.",
+  "For beyond the bounds of observable reality lie infinite multiverses, each a reflection of our own hopes and fears.",
+ ]),
+]
+
+data = {
+  'fix': [[T(t), k, s, t.endswith(':00') and t not in ('00:00:34:00',) and k=='card' or t=='00:00:34:00'] for t, k, s in FIX],
+  'bus': [T(BUS[0]), BUS[1]],
+  'slots': [[T(t), v, t in ('00:11:20:00','00:23:00:00','00:29:30:00','00:36:00:00')] for t, v in SLOTS],
+  'stills': [[(i - 1) * STEP, i] for i in ids],
+  'end': T('00:54:48:12'),
+}
+
+page = r'''<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>insularity · text</title>
+<style>
+html,body{margin:0;background:#000;color:#bdbdbd}
+body{font:17px/1.55 "Times New Roman",Times,serif}
+#hd{position:fixed;top:0;left:0;right:0;z-index:3;padding:14px 4vw;font:12px "Courier New",monospace;color:#555;background:linear-gradient(#000 60%,transparent)}
+#hd a{color:#777;text-decoration:none;border-bottom:1px solid #333}
+#now{float:right;color:#444}
+#land{position:relative;margin:0 auto;max-width:1100px}
+.it{position:absolute;left:150px;width:min(60ch,calc(100% - 330px))}
+.tc{position:absolute;left:4vw;width:120px;font:11px "Courier New",monospace;color:#3a3a3a}
+.sl p{margin:0;transition:opacity 2.2s,filter 2.2s}
+.sl p.out{opacity:0;filter:blur(6px)}
+.sl:hover p{color:#e6e6e6}
+.card{color:#b0000c;font:700 22px/1 "Times New Roman",serif;letter-spacing:.06em;text-transform:uppercase}
+.line{font-style:italic;color:#999}
+.bus{display:grid;grid-template-columns:1fr 1fr;gap:.15em 2em;font:14px/1.7 "Courier New",monospace;color:#8a8a8a}
+.bus span:nth-child(even){color:#cfcfcf}
+.end{font-size:14px;color:#6a6a6a}
+.st{position:absolute;right:0;width:96px;opacity:.42;filter:grayscale(.3)}
+.st:hover{opacity:1;filter:none;z-index:2}
+@media(max-width:760px){.it{left:12px;width:calc(100% - 100px)}.tc{display:none}.st{width:64px}body{font-size:16px}}
+</style></head><body>
+<div id="hd"><a href="index.html#INSULARITY">← insularity</a> &nbsp;·&nbsp; what is said and written in it <span id="now"></span></div>
+<div id="land"></div>
+<script>
+var D=__DATA__;
+var PX=150/60, TOP=110, land=document.getElementById('land');
+function tc(s){s=Math.max(0,s);var h=s/3600|0,m=(s%3600)/60|0,x=s%60|0;return(h?h+':':'')+('0'+m).slice(-2)+':'+('0'+x).slice(-2)}
+function R(a,b){return a+Math.random()*(b-a)}
+var items=[];
+D.fix.forEach(function(f){var d=document.createElement('div');d.className='it '+f[1];d.textContent=f[2];items.push([f[0],d,f[3]])});
+(function(){var d=document.createElement('div');d.className='it bus';var q=['Kalimera. To '+D.bus[1][0]+'?','Two Euro.'];
+ for(var i=1;i<D.bus[1].length;i++){q.push((i==1?'To ':'')+D.bus[1][i]+'?','Yes. Two Euro.')}
+ q.forEach(function(s){var e=document.createElement('span');e.textContent=s;d.appendChild(e)});items.push([D.bus[0],d])})();
+var slots=[];
+D.slots.forEach(function(s){var d=document.createElement('div');d.className='it sl';var p=document.createElement('p');
+ var w=[.42,.22,.16,.12,.08];var k=0;p.textContent=s[1][0];d.appendChild(p);d._v=s[1];d._k=0;d._w=w.slice(0,s[1].length);
+ d.onmouseenter=function(){d._hold=1};d.onmouseleave=function(){d._hold=0};slots.push(d);items.push([s[0],d,s[2]])});
+items.sort(function(a,b){return a[0]-b[0]});
+items.forEach(function(x){land.appendChild(x[1])});
+var st=D.stills.map(function(s){var i=document.createElement('img');i.className='st';i.loading='lazy';i.alt='';i.src='img/insularity/s/'+('00'+s[1]).slice(-3)+'.jpg';i.title=tc(s[0]);land.appendChild(i);return[s[0],i]});
+var tcs=[];
+function lay(){var y=0;items.forEach(function(x){var t=TOP+x[0]*PX;var top=Math.max(t,y);x[1].style.top=top+'px';
+  if(!x[1]._tc){var c=document.createElement('div');c.className='tc';land.appendChild(c);x[1]._tc=c}
+  x[1]._tc.textContent=(x[2]?'≈ ':'')+tc(x[0]);x[1]._tc.style.top=(top+4)+'px';y=top+x[1].offsetHeight+28});
+ var sy=0;st.forEach(function(s){var t=Math.max(TOP+s[0]*PX,sy);s[1].style.top=t+'px';sy=t+56});
+ land.style.height=Math.max(y,sy,TOP+D.end*PX)+200+'px'}
+lay();addEventListener('resize',lay);
+function pick(d){var w=d._w,r=Math.random()*w.reduce(function(a,b){return a+b},0),k=0;for(;k<w.length;k++){r-=w[k];if(r<0)break}return Math.min(k,w.length-1)}
+(function perm(){setTimeout(function(){var vis=slots.filter(function(d){var r=d.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&!d._hold});
+ var pool=vis.length&&Math.random()<.8?vis:slots;var d=pool[Math.random()*pool.length|0];if(d&&!d._hold){var k=pick(d);if(k==d._k)k=(k+1)%d._v.length;
+ var p=d.firstChild;p.classList.add('out');setTimeout(function(){p.textContent=d._v[k];d._k=k;lay();p.classList.remove('out')},2300)}perm()},R(5000,14000))})();
+var now=document.getElementById('now');addEventListener('scroll',function(){now.textContent=tc((scrollY+innerHeight*.4-TOP)/PX)});
+</script></body></html>'''
+
+open('../insularity-text.html', 'w').write(page.replace('__DATA__', json.dumps(data, ensure_ascii=False)))
+print('ok')
