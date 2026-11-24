@@ -108,7 +108,8 @@
   "map": "BELARUS",
   "drift": "Entering was forbidden. A teacher of physics in a small town nearby had a son, and the son was on duty at the barrier. He lifted it for a school bus full of strangers and came along, a counter in his hand, reading out numbers, some low, some not. Back at his hut, a few kilometres outside, where it should have been safer, the numbers rose. Five hundred becquerel, there. Every visit to a village began with four glasses of home-distilled spirit, poured to the brim, and a toast to love. At night there was a disco: a ring of people, arms linked, swaying in front of a ghetto blaster. The girls from Minsk who had come along to translate laughed with the guests, and at some point the faces in the ring changed. Somebody said the foreigners were taking their women. Then it was time to go to bed, quickly. Breakfast was fried in fat, with beer.",
   "inst": {
-   "src": "img/belarus/inst.jpg"
+   "src": "img/belarus/inst.jpg",
+   "pos": "left center"
   },
   "drift2": "In the marshes a ferryman took anyone across for one coin, and nobody ever saw him take the coin. The river keeps count, people said. In the year the storks left early he refused a woman and told her she had already crossed. She stood on the bank a long time, then went home. Her neighbours swore she had not been out all day. When she came in, the little needle on the wall clicked twice."
  },
