@@ -46,7 +46,8 @@
    "img/caucasus/w10": "Udabno, on the way to David Gareja (Kakheti)"
   },
   "map": "CAUCASUS",
-  "drift": "In Dartlo I sat for a day at a long table with men I had met the evening before. We had drunk then and drank again in the morning, and then we drove up towards Chontio, because a film crew was coming to make a classic film, they said. A supra, a tamada, toasts that lasted for minutes. All day they slaughtered. Their dogs had heads bigger than mine and were gentle as long as you were there. One of the men had lived in Germany for a while as an asylum seeker. At some point he said he had killed someone. We were drunk, and we pretended not to have understood. They called me Shurika, after Shurik, who came to the Caucasus to collect toasts."
+  "drift": "In Dartlo I sat for a day at a long table with men I had met the evening before. We had drunk then and drank again in the morning, and then we drove up towards Chontio, because a film crew was coming to make a classic film, they said. A supra, a tamada, toasts that lasted for minutes. All day they slaughtered. Their dogs had heads bigger than mine and were gentle as long as you were there. One of the men had lived in Germany for a while as an asylum seeker. At some point he said he had killed someone. We were drunk, and we pretended not to have understood. They called me Shurika, after Shurik, who came to the Caucasus to collect toasts.",
+  "drift2": "In a village in Tusheti the shepherds kept one seat free at every supra for whoever had gone over the pass. Nobody sat there, but in the morning the glass was empty and the bread broken. One winter a boy filled the glass with water instead of wine, to see. In the morning the water was gone, and on the table lay a ticket for the marshrutka to Shatili, stamped, dated, not yet valid."
  },
  "BELARUS": {
   "s": "Беларусь",
@@ -105,7 +106,8 @@
   "drift": "Entering was forbidden. A teacher of physics in a small town nearby had a son, and the son was on duty at the barrier. He lifted it for a school bus full of strangers and came along, a counter in his hand, reading out numbers, some low, some not. Back at his hut, a few kilometres outside, where it should have been safer, the numbers rose. Five hundred becquerel, there. Every visit to a village began with four glasses of home-distilled spirit, poured to the brim, and a toast to love. At night there was a disco: a ring of people, arms linked, swaying in front of a ghetto blaster. The girls from Minsk who had come along to translate laughed with the guests, and at some point the faces in the ring changed. Somebody said the foreigners were taking their women. Then it was time to go to bed, quickly. Breakfast was fried in fat, with beer.",
   "inst": {
    "src": "img/belarus/inst.jpg"
-  }
+  },
+  "drift2": "In the marshes a ferryman took anyone across for one coin, and nobody ever saw him take the coin. The river keeps count, people said. In the year the storks left early he refused a woman and told her she had already crossed. She stood on the bank a long time, then went home. Her neighbours swore she had not been out all day. When she came in, the little needle on the wall clicked twice."
  },
  "COCOONS": {
   "s": "ΦΆΚΕΛΟΙ ΤΗΣ ΖΩΉΣ",
@@ -1996,7 +1998,8 @@
    "img/gagauzia/22"
   ],
   "th": "_t.jpg",
-  "drift": "In Comrat I stayed with an older woman, an independent journalist, who put up travellers on her sofa. A rapper showed me his recording studio. He told me, with some pride, that he had already played in Turkey. The studio was inside the parliament building. When we stepped out into the corridor for a moment, a session was under way, and for a while we stood in the parliament of an autonomy that keeps its spare key in the drawer."
+  "drift": "In Comrat I stayed with an older woman, an independent journalist, who put up travellers on her sofa. A rapper showed me his recording studio. He told me, with some pride, that he had already played in Turkey. The studio was inside the parliament building. When we stepped out into the corridor for a moment, a session was under way, and for a while we stood in the parliament of an autonomy that keeps its spare key in the drawer.",
+  "drift2": "An old woman in the steppe was said to talk to the wind in a language nobody understood, not Turkish, not Romanian, not Russian. On her last night the priest wrote down what she said, sound by sound, as well as he could. The page lay in the church for a hundred years. Then someone read it aloud at a wedding, and every radio in the street went quiet and came back on another station."
  },
  "TRANSNISTRIA": {
   "s": "Pridnestrovian Moldovan Republic",
@@ -2181,7 +2184,8 @@
    "img/kurdistan/24"
   ],
   "th": "_t.jpg",
-  "drift": "The border takes the whole afternoon. Men in uniform run from one hut to the next with our passports, come back, run again. Then a stamp. On the other side nobody lets us pay. Not for the taxi, not for the tea, not for the room. We try at every counter; someone has always been faster. After three days we still have every dinar we changed at the border."
+  "drift": "The border takes the whole afternoon. Men in uniform run from one hut to the next with our passports, come back, run again. Then a stamp. On the other side nobody lets us pay. Not for the taxi, not for the tea, not for the room. We try at every counter; someone has always been faster. After three days we still have every dinar we changed at the border.",
+  "drift2": "Above a town built on a rock a man guarded a gate that had no wall left on either side. Travellers could have walked around it. They never did. They waited, gave their names, and he wrote them into a book that had more pages than it should. When he died his son opened the book and found, on the last written page, in his father's hand, our two names."
  },
  "KUTAISI": {
   "s": "ქუთაისი (ეგრისი)",
