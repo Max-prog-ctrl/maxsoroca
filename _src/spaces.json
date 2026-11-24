@@ -47,7 +47,10 @@
   },
   "map": "CAUCASUS",
   "drift": "In Dartlo I sat for a day at a long table with men I had met the evening before. We had drunk then and drank again in the morning, and then we drove up towards Chontio, because a film crew was coming to make a classic film, they said. A supra, a tamada, toasts that lasted for minutes. All day they slaughtered. Their dogs had heads bigger than mine and were gentle as long as you were there. One of the men had lived in Germany for a while as an asylum seeker. At some point he said he had killed someone. We were drunk, and we pretended not to have understood. They called me Shurika, after Shurik, who came to the Caucasus to collect toasts.",
-  "drift2": "In a village in Tusheti the shepherds kept one seat free at every supra for whoever had gone over the pass. Nobody sat there, but in the morning the glass was empty and the bread broken. One winter a boy filled the glass with water instead of wine, to see. In the morning the water was gone, and on the table lay a ticket for the marshrutka to Shatili, stamped, dated, not yet valid."
+  "drift2": "In a village in Tusheti the shepherds kept one seat free at every supra for whoever had gone over the pass. Nobody sat there, but in the morning the glass was empty and the bread broken. One winter a boy filled the glass with water instead of wine, to see. In the morning the water was gone, and on the table lay a ticket for the marshrutka to Shatili, stamped, dated, not yet valid.",
+  "inst": {
+   "src": "img/caucasus/inst.jpg"
+  }
  },
  "BELARUS": {
   "s": "Беларусь",
@@ -1866,7 +1869,9 @@
    "img/huellen/22": "Kottbusser Tor, Berlin (Germany)",
    "img/huellen/w02": "Tbilisi, former Ministry of Highway Construction · თბილისი (Georgia)",
    "img/huellen/w01": "Dushanbe · Душанбе (Tajikistan)"
-  }
+  },
+  "drift": "Before she moved she wrapped everything in her flat in paper: the cups, the books, the clock. The men carried the boxes down and drove away. When she unpacked in the new place everything was there, and one thing more, wrapped the same way, warm. She has not opened it. Her clock is already on the wall, and it is ticking.",
+  "dmode": "circle"
  },
  "CHIȘINĂU": {
   "s": "/ˌkɪʃɪˈnaʊ/ KISH-in-OW, US also /ˌkiːʃiːˈnaʊ/ kee-shee-NOW; Romanian: [kiʃiˈnəw]",
@@ -1897,7 +1902,9 @@
    "img/chisinau/15",
    "img/chisinau/16"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "A cobbler on the market street mended shoes for people he never saw. In the morning there was a pair on his step, in the evening he put them back, repaired, and the next morning the money lay there, always exact. When he died his daughter waited up one night. Nobody came. Only the lamp outside flickered in four short beats and went steady, as if something had been confirmed.",
+  "dmode": "h"
  },
  "GORNO-BADAKHSHAN": {
   "s": "Вилояти Мухтори Кӯҳистони Бадахшон",
@@ -1955,7 +1962,8 @@
   "map": "TAJIKISTAN",
   "inst": {
    "src": "img/gornobadakhshan/inst.jpg"
-  }
+  },
+  "drift": "On the Afghan side a woman sang every evening across the river, and on this side someone sang back. Nobody knew who. The soldiers on the bank listened and did not report it. One summer a boy recorded it on a cheap telephone. When they played it back, there were three voices."
  },
  "BEOGRAD": {
   "s": "Београд•ALBA GRECA",
@@ -1974,7 +1982,9 @@
    "img/beograd/22",
    "img/beograd/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "A man fished from the bridge where the two rivers meet, every morning, and never caught anything. He said he was fishing in the third river, the one under the other two. One spring he stayed at home for a long time. When he came back, the first thing he pulled out was a hotel key with a room number on it, from a hotel that had not been built yet.",
+  "dmode": "circle"
  },
  "GAGAUZIA": {
   "s": "Avtonom Territoriali Bölümlüü Gagauziya",
@@ -1999,7 +2009,10 @@
   ],
   "th": "_t.jpg",
   "drift": "In Comrat I stayed with an older woman, an independent journalist, who put up travellers on her sofa. A rapper showed me his recording studio. He told me, with some pride, that he had already played in Turkey. The studio was inside the parliament building. When we stepped out into the corridor for a moment, a session was under way, and for a while we stood in the parliament of an autonomy that keeps its spare key in the drawer.",
-  "drift2": "An old woman in the steppe was said to talk to the wind in a language nobody understood, not Turkish, not Romanian, not Russian. On her last night the priest wrote down what she said, sound by sound, as well as he could. The page lay in the church for a hundred years. Then someone read it aloud at a wedding, and every radio in the street went quiet and came back on another station."
+  "drift2": "An old woman in the steppe was said to talk to the wind in a language nobody understood, not Turkish, not Romanian, not Russian. On her last night the priest wrote down what she said, sound by sound, as well as he could. The page lay in the church for a hundred years. Then someone read it aloud at a wedding, and every radio in the street went quiet and came back on another station.",
+  "inst": {
+   "src": "img/gagauzia/inst.jpg"
+  }
  },
  "TRANSNISTRIA": {
   "s": "Pridnestrovian Moldovan Republic",
@@ -2038,7 +2051,9 @@
    "img/transnistria/31",
    "img/transnistria/32"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "At the checkpoint the guard stamps every passport twice, once for the country and once for the one that is not on any map. In the second stamp the date is always the same. A woman who has crossed every week for thirty years once looked closely. It was a date in the future, and every year it comes a little closer.",
+  "dmode": "v"
  },
  "SOROCA": {
   "s": "Сороки (Бессарабія)",
@@ -2069,7 +2084,9 @@
    "img/soroca/23",
    "img/soroca/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "The fortress on the Dniester was built, they say, in a single night, and every year one stone goes missing. Nobody takes it. Children have kept watch; at dawn there is a gap where there was none. A boy once counted the stones that were left and worked out the year the fortress would be gone. He wrote it on the wall in chalk. In the morning the number had been corrected.",
+  "dmode": "circle"
  },
  "BAM": {
   "s": "ارگ بم",
@@ -2096,7 +2113,9 @@
    "img/bam/19",
    "img/bam/20"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "At the gate of the citadel a guard asked every traveller for the password, and nobody ever knew it. He let them in anyway. When the city fell he was found at his post, standing, his mouth open, as if he had just been told. The people who now listen to the mud walls with their instruments say that on some nights the walls repeat a word. It has four syllables, and it is never the same.",
+  "dmode": "hv"
  },
  "HASANKEYF": {
   "s": "Κιφας, Heskîf, Hesenkêf, Hesna/Hesno, Hsenkep, Hesno d-kepo, ܚܨܢ ܟܐܦܐ",
@@ -2121,7 +2140,8 @@
   ],
   "th": "_t.jpg",
   "drift": "In the time of the river kings a potter lived in the third cave above the bend. Every evening he set a bowl of water at the entrance for whoever walked home late along the cliff. Some mornings the bowl was empty, some mornings it was full of sand. One winter a stranger came down from the north and asked to sleep in the cave. He paid in salt and said he was waiting for the bus. The potter gave him the bowl. In the morning the stranger was gone, the water stood still, and on its surface lay the whole valley, lit from below.",
-  "drift2": "A woman sold salt by the bridge and told everyone the same thing: one day men will come and stop the river with a wall, and the river will climb the steps to the citadel and sit down in the temple. People laughed and bought her salt. When she died they found in her basket a small flat stone, black and smooth on every side, that sometimes lit up by itself."
+  "drift2": "A woman sold salt by the bridge and told everyone the same thing: one day men will come and stop the river with a wall, and the river will climb the steps to the citadel and sit down in the temple. People laughed and bought her salt. When she died they found in her basket a small flat stone, black and smooth on every side, that sometimes lit up by itself.",
+  "dmode": "cross"
  },
  "PERSIA": {
   "s": "چهره‌های ایران",
@@ -2152,7 +2172,9 @@
    "img/persia/23",
    "img/persia/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "A scribe copied the same book all his life, because each copy came out slightly different from the last. In his final copy the margins were full of words in a script nobody could read. Decades later a grandson photographed the page. On the screen, for a moment, the script was in Latin letters, and then it was not.",
+  "dmode": "h"
  },
  "KURDISTAN": {
   "s": "(kurdish کوردستان Kūrdistān; arabic كردستان, DMG Kurdistān; persian کردستان Kordestān; turkish Kürdistan)",
@@ -2185,7 +2207,10 @@
   ],
   "th": "_t.jpg",
   "drift": "The border takes the whole afternoon. Men in uniform run from one hut to the next with our passports, come back, run again. Then a stamp. On the other side nobody lets us pay. Not for the taxi, not for the tea, not for the room. We try at every counter; someone has always been faster. After three days we still have every dinar we changed at the border.",
-  "drift2": "Above a town built on a rock a man guarded a gate that had no wall left on either side. Travellers could have walked around it. They never did. They waited, gave their names, and he wrote them into a book that had more pages than it should. When he died his son opened the book and found, on the last written page, in his father's hand, our two names."
+  "drift2": "Above a town built on a rock a man guarded a gate that had no wall left on either side. Travellers could have walked around it. They never did. They waited, gave their names, and he wrote them into a book that had more pages than it should. When he died his son opened the book and found, on the last written page, in his father's hand, our two names.",
+  "inst": {
+   "src": "img/kurdistan/inst.jpg"
+  }
  },
  "KUTAISI": {
   "s": "ქუთაისი (ეგრისი)",
@@ -2216,7 +2241,9 @@
    "img/kutaisi/23",
    "img/kutaisi/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "In a guesthouse by the river the owner laid the breakfast table for one more than had slept there. Every morning the extra cup had been used. The guests made jokes about it, then stopped. One left before dawn and saw the table already laid, the cup steaming, the chair pushed back as if someone had just stood up to take a call.",
+  "dmode": "v"
  },
  "UKRAJINA": {
   "s": "УКРАЇНА - НЕЗАЛЕЖНА З 24 СЕРПНЯ 1991 РОКУ",
@@ -2247,7 +2274,9 @@
    "img/ukrajina/23",
    "img/ukrajina/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "In the steppe there was a well that answered. You called your name into it, and after a while it called back, a little older. In the years without a state people came from far away to hear how their voices would sound. Some heard nothing. One heard a voice reading out numbers, calmly, as if from a list.",
+  "dmode": "circle"
  },
  "OGYGIA": {
   "s": "Ὠγυγίη - Ομφαλός της θάλασσας",
@@ -2300,7 +2329,9 @@
    "img/issykkul/23",
    "img/issykkul/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "Under the lake, the fishermen say, lies a town that went down with its lamps still lit. On calm nights you can see them. A diver went down once to count them and came up with a number written on his wrist. He did not remember writing it. It has eleven digits, and when you dial it, it rings somewhere very far away, and nobody picks up.",
+  "dmode": "circle"
  },
  "KYRGYZSTAN": {
   "s": "Кыргыз Республикасы",
@@ -2331,7 +2362,9 @@
    "img/kyrgyzstan/23",
    "img/kyrgyzstan/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "The storyteller in the yurt knew the epic by heart, half a million lines. He said one line was missing, and that he had heard it only once, as a boy, from a stranger at a horse market. Every winter he sang the whole of it and paused where the line belonged. In the last winter of his life someone in the yurt, nobody saw who, filled the pause.",
+  "dmode": "h"
  },
  "STANS": {
   "s": "UZBEKISTAN•TAJIKISTAN•KAZAKHSTAN",
@@ -2362,7 +2395,9 @@
    "img/stans/23",
    "img/stans/24"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "In a border town the station clock showed three different times, one for each republic, and nobody ever set it. The trains ran on a fourth. An old railwayman said the fourth was the time the tracks remembered. When the station was renovated, the new clock showed only one time, and every night at four minutes past three it stopped and waited.",
+  "dmode": "v"
  },
  "YAZD": {
   "t": "MAZDAYASNA",
@@ -2384,7 +2419,9 @@
    "img/yazd/13",
    "img/yazd/14"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "The keeper of the fire was not allowed to breathe on it, so he wore a cloth over his mouth, as his father had and his father's father. When the last of them died, they found under the cloth a small mark on his lip, like a burn, in the shape of a letter from no alphabet the family had ever used. The fire did not flicker that night.",
+  "dmode": "circle"
  },
  "RICHAT": {
   "s": "عين الصحراء • MAURITANIA • 2025",
@@ -2425,7 +2462,9 @@
    "img/richat/14": "Chinguetti (Mauritania)",
    "img/richat/15": "Chinguetti (Mauritania)",
    "img/richat/16": "Chinguetti (Mauritania)"
-  }
+  },
+  "drift": "The ore train crosses the desert at night, and the people riding on top of the ore count the stars to know where they are. One night a boy counted one too many. The others counted after him and found it too. By morning it had moved to stand above the Eye and stayed there. The satellites list it as a calibration error.",
+  "dmode": "h"
  },
  "PATERNOSTER": {
   "s": "City of London",
@@ -2452,7 +2491,9 @@
    "img/paternoster/19",
    "img/paternoster/20"
   ],
-  "th": "_t.jpg"
+  "th": "_t.jpg",
+  "drift": "The rosary makers in the lane counted beads all day, and one of them, it is said, never stopped, even asleep. When he died he had reached a number nobody had a name for. His beads were melted down. On the square today one of the cash machines sometimes counts the notes twice before it hands them out, and nobody has ever reported it.",
+  "dmode": "v"
  },
  "SELECTED_FRAMES": {
   "s": "best of • forty frames • twenty spaces",
