@@ -20,7 +20,7 @@ body{font:17px/1.55 "Times New Roman",Times,serif}
 .end{font-size:14px;color:#6a6a6a}
 .st{position:absolute;right:0;width:96px;opacity:.42;filter:grayscale(.3)}
 .st:hover{opacity:1;filter:none;z-index:2}
-@media(max-width:760px){.it{left:12px;width:calc(100% - 100px)}.tc{display:none}.st{width:64px}body{font-size:16px}}
+@media(max-width:760px){.it{left:12px;width:calc(100% - 100px)}.tc{display:none}.st{width:78px}body{font-size:16px}}
 </style></head><body>
 <div id="hd"><a href="index.html#INSULARITY">← insularity</a> &nbsp;·&nbsp; what is said and written in it <span id="now"></span></div>
 <div id="land"></div>
@@ -45,7 +45,7 @@ var tcs=[];
 function lay(){var y=0;items.forEach(function(x){var t=TOP+x[0]*PX;var top=Math.max(t,y);x[1].style.top=top+'px';
   if(!x[1]._tc){var c=document.createElement('div');c.className='tc';land.appendChild(c);x[1]._tc=c}
   x[1]._tc.textContent=(x[2]?'≈ ':'')+tc(x[0]);x[1]._tc.style.top=(top+4)+'px';y=top+x[1].offsetHeight+28});
- var sy=0;st.forEach(function(s){var t=Math.max(TOP+s[0]*PX,sy);s[1].style.top=t+'px';sy=t+56});
+ var sy=0;st.forEach(function(s){var t=Math.max(TOP+s[0]*PX,sy);s[1].style.top=t+'px';sy=t+(s[1].offsetWidth*.5625)+2});
  land.style.height=Math.max(y,sy,TOP+D.end*PX)+200+'px'}
 lay();addEventListener('resize',lay);
 function pick(d){var w=d._w,r=Math.random()*w.reduce(function(a,b){return a+b},0),k=0;for(;k<w.length;k++){r-=w[k];if(r<0)break}return Math.min(k,w.length-1)}
