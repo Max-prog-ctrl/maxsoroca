@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>hotel hilbert · text</title>
+<style>
+html,body{margin:0;background:#000;color:#4a4a4a}
+body{font:13px/1.55 "Courier New",monospace}
+#hd{position:fixed;top:0;left:0;right:0;z-index:3;padding:14px 4vw;font:12px "Courier New",monospace;color:#555;background:linear-gradient(#000 60%,transparent)}
+#hd a{color:#777;text-decoration:none;border-bottom:1px solid #333}
+#loc{float:right;color:#444}
+#lib{max-width:80ch;margin:0 auto;padding:70px 4vw 40vh}
+.pg{margin:0 0 9em}
+.ph{color:#333;margin-bottom:1.2em;letter-spacing:.08em}
+.ln{white-space:pre;overflow:hidden}
+.f{color:#cfcfcf}
+.r{color:#b0000c}
+.g{color:#0ff;text-shadow:-2px 0 #f00}
+@media(max-width:760px){body{font-size:9.6px}}
+</style></head><body>
+<div id="hd"><a href="index.html#HOTEL_HILBERT">← hotel_hilbert</a><span id="loc"></span></div>
+<div id="lib"></div>
+<script>
+var A='abcdefghijklmnopqrstuvwxyz ,.';
+var F=['room nineteen','the ink still wet','his name is already in the book','only older','the other gentleman',
+'every room is taken. there is always room for one more guest','the twenty fifth of august',
+'ich existiere, weil es einen gibt, der mich träumt','die form kann nur die kugelform sein. denn sie muss perfekt sein',
+'a small station after eleven at night','a magpie','who is dreaming whom','the library','the labyrinth','adrogue',
+'lost footage, probably','dietrich kuhlbrodt','helena hauff','marlene wetzel','loeloe yalla','rezeptionistin und traumgestalt',
+'the last day the world turned without me','he has taken room nineteen','a suitcase','the stars'];
+var R=Math.random,n=0,lib=document.getElementById('lib'),loc=document.getElementById('loc');
+function ch(){return A[R()*A.length|0]}
+function page(){n++;var p=document.createElement('div');p.className='pg';
+ var h=document.createElement('div');h.className='ph';h.dataset.n=n;
+ h.textContent='hexagon '+(1983+n*7)+' · wall '+(1+R()*4|0)+' · shelf '+(1+R()*5|0)+' · volume '+(1+R()*32|0)+' · page '+(1+R()*410|0);p.appendChild(h);
+ var L=[];for(var i=0;i<40;i++){var s='';for(var j=0;j<80;j++)s+=ch();L.push(s)}
+ var k=R()<.55?1:(R()<.7?2:0),marks=[];
+ for(var q=0;q<k;q++){var f=F[R()*F.length|0];if(f.length>78)f=f.slice(0,78);var li=R()*40|0,co=R()*(80-f.length)|0;marks.push([li,co,f.length,R()<.12]);L[li]=L[li].slice(0,co)+f+L[li].slice(co+f.length)}
+ L.forEach(function(s,i){var d=document.createElement('div');d.className='ln';var m=marks.filter(function(x){return x[0]==i})[0];
+  if(m){d.appendChild(document.createTextNode(s.slice(0,m[1])));var sp=document.createElement('span');sp.className=m[3]?'r':'f';sp.textContent=s.slice(m[1],m[1]+m[2]);d.appendChild(sp);d.appendChild(document.createTextNode(s.slice(m[1]+m[2])))}
+  else d.textContent=s;p.appendChild(d)});
+ lib.appendChild(p);return p}
+for(var i=0;i<3;i++)page();
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){io.unobserve(e.target);io.observe(page())}})},{rootMargin:'600px'});
+io.observe(lib.lastChild);
+addEventListener('scroll',function(){var hs=document.querySelectorAll('.ph'),c=hs[0];for(var i=0;i<hs.length;i++)if(hs[i].getBoundingClientRect().top<innerHeight/2)c=hs[i];loc.textContent=c.textContent},{passive:true});
+loc.textContent=document.querySelector('.ph').textContent;
+// letters drift: now and then a visible line changes a few characters, or a fragment surfaces for a moment
+(function drift(){setTimeout(function(){var ls=[].filter.call(document.querySelectorAll('.ln'),function(l){var r=l.getBoundingClientRect();return r.top>60&&r.bottom<innerHeight&&!l.querySelector('span')});
+ if(ls.length){var l=ls[R()*ls.length|0],s=l.textContent;
+  if(R()<.25){var f=F[R()*F.length|0].slice(0,78),co=R()*(80-f.length)|0,old=s;l.textContent='';l.appendChild(document.createTextNode(s.slice(0,co)));var sp=document.createElement('span');sp.className='g';sp.textContent=f;l.appendChild(sp);l.appendChild(document.createTextNode(s.slice(co+f.length)));
+   setTimeout(function(){sp.className='f'},180);setTimeout(function(){l.textContent=old},R()*2500+1200)}
+  else{var a=s.split('');for(var t=0;t<6;t++)a[R()*80|0]=ch();l.textContent=a.join('')}}
+ drift()},R()*2500+800)})();
+</script>
+</body></html>
