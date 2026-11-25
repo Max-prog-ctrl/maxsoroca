@@ -33,7 +33,7 @@
   "t": "fag_butts_in_the_fire_bucket",
   "s": "music video · Helena Hauff · 2018",
   "cr": "direction: Max Soroca, Vanessa Ivan\nmusic: Helena Hauff\nlabel: Ninja Tune",
-  "b": "In June 2018 they filmed a woman on a heath that had turned violet. She has since gone through the frames one by one and cannot say whether the colour was added later or was already in the heather when they arrived.\n\nTwo films were cut from the same material. The first was delivered, approved and released under another name. The second she kept in a bucket of the kind that hangs beside the doors of old houses, for the cigarette ends of guests. She mentions the bucket because it is the only object in this account of which she is certain.\n\nYears later she took the second film out and counted its frames. There were one hundred and ninety-two. The following evening there were fewer; on the third, more. She wrote the numbers down. They do not add up, and she has stopped expecting them to.\n\nOn Helgoland it is said that when someone drowns, something climbs out of the sea: black, with eyes the size of plates and a coat of sheepskin. It does not walk; it rolls. It lies across stairs and in the corners of barns. When misfortune has come to a house, the islanders say: Det bisterk Ding lag auf dem Weg.\n\nShe does not claim the two are connected. She only notes that on the night she first counted the frames, something was lying on her stairs, and that she stepped over it.",
+  "b": "Qualm is the name of the album. In German it means smoke, in English a doubt, the small kind that does not go away. Fag butts in the fire bucket: what is left of the fire, lying in the thing that was meant to put it out.\n\nWe shot it in 2018 on a heath with dunes, somewhere north-west of Hamburg. Sand, heather, wind, a woman lying in the water. We had fun.\n\nYears later a Herr Müller talked about the video in his podcast. He saw a great deal in it. He wondered what the drowned woman stood for. He mentioned an actress who, he said, always had to play the body in the water in the cinema of the Nazi years. One thinks of Elisa Day, of Ophelia, of the river at the end of every ballad. Each of his associations was right in its way. The one the film was about, he did not mention.\n\nNobody told him. It is still in the bucket.",
   "mos": {
    "src": "img/fag_butts/mosaik.jpg",
    "c": 16,
@@ -208,7 +208,10 @@
    "…██████████████████████████ in perpetuity ███████…",
    "",
    "[ page 4 of 6 ]"
-  ]
+  ],
+  "drift": "Qualm: smoke, and a doubt that does not go away. What is left of the fire lies in the thing that was meant to put it out.",
+  "drift2": "On Helgoland they say that when someone drowns, something black climbs out of the sea and rolls up the stairs of the house. Det bisterk Ding lag auf dem Weg.",
+  "dmode": "diag"
  },
  "BUBBLE_BOY": {
   "t": "bubble_boy",
