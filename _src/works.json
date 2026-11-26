@@ -822,7 +822,149 @@
   },
   "drift": "We are neither dead nor alive. We are neither there nor not there. We are beings of the shadow.",
   "drift2": "To whom belongs the shadow of the donkey? Tell me!",
-  "dmode": "v"
+  "dmode": "v",
+  "route": [
+   [
+    110,
+    440,
+    "a cave",
+    "Alexia",
+    ""
+   ],
+   [
+    467,
+    566,
+    "Hinterstein, Allgäu",
+    "Konrad Zuse, once",
+    ""
+   ],
+   [
+    560,
+    440,
+    "a machine like a gate",
+    "Horst Zuse",
+    ""
+   ],
+   [
+    600,
+    300,
+    "a red cinema",
+    "Olaf Müller",
+    ""
+   ],
+   [
+    430,
+    370,
+    "a room full of books",
+    "Karlheinz Steinmüller",
+    ""
+   ],
+   [
+    905,
+    385,
+    "one letter apart",
+    "Christian Uhle, Christian Ihle",
+    ""
+   ],
+   [
+    830,
+    200,
+    "the blub",
+    "Rosa Menkman",
+    ""
+   ],
+   [
+    223,
+    520,
+    "Freiburg, on a laptop",
+    "Michael Nahm",
+    "d"
+   ],
+   [
+    20,
+    300,
+    "← California, on a laptop",
+    "Rudolf von Bitter Rucker",
+    "d"
+   ],
+   [
+    330,
+    250,
+    "a wicker chair",
+    "Sheikh Eşref Efendi",
+    ""
+   ],
+   [
+    427,
+    120,
+    "the Elbe",
+    "Dietrich Kuhlbrodt",
+    ""
+   ],
+   [
+    700,
+    150,
+    "Späti am Schlesi",
+    "",
+    ""
+   ],
+   [
+    620,
+    505,
+    "a greenhouse",
+    "Marie-Eve Levasseur",
+    ""
+   ],
+   [
+    900,
+    120,
+    "a games centre",
+    "Svenja Anhut",
+    ""
+   ],
+   [
+    300,
+    50,
+    "a pixel in the sky",
+    "Olaf Müller, again",
+    "p"
+   ],
+   [
+    20,
+    105,
+    "← barrow-upon-soar, 15 phalle",
+    "Brian Reffin Smith",
+    "d"
+   ],
+   [
+    760,
+    250,
+    "the dead room",
+    "a séance",
+    "e"
+   ],
+   [
+    880,
+    560,
+    "",
+    "Raúl Rojas González",
+    "f"
+   ],
+   [
+    40,
+    600,
+    "",
+    "Stephan Günzel",
+    "f"
+   ],
+   [
+    930,
+    30,
+    "",
+    "Lev Manovich",
+    "f"
+   ]
+  ]
  },
  "SULETHI": {
   "t": "sulethi",
