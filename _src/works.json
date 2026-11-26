@@ -1018,9 +1018,9 @@
  },
  "KŘIŽERKI": {
   "t": "křižerki",
-  "s": "documentary · 2022 · Upper Lusatia",
-  "cr": "with Sofija Cyžec and Britta Schoening\nshown at Filmfest Cottbus 2022 and Neiße Filmfestival 2023",
-  "b": "At Easter, in the Sorbian villages of Upper Lusatia, men in black coats and top hats ride from one parish to the next and sing, to tell the neighbours that the dead have risen. The horses are braided and decorated the day before. The women watch from the roadside. It has been this way for as long as anyone in the village remembers.\n\nIn Ostro, in a farmyard not far from the church, a young woman helps to braid the horses while her father tells her how it ought to be done. She rides as well as any of the men who will ride on Sunday, and she would like to ride with them.\n\nThe film follows her through one spring and one question: what a tradition owes to the dead, and what it owes to the living. It leaves the question where it found it, at the side of the road.",
+  "s": "die osterreiterinnen · documentary · 2022 · Upper Lusatia",
+  "cr": "concept & script: Sofija Cyžec, Britta Schoening,|Max Saroka\ndirection: Sofija Cyžec\ncamera: Sofija Cyžec, Britta Schoening,|Max Saroka, Luisa Nawka\nsound: Max Saroka\nediting: Sofija Cyžec\nvisuals intro / outro: Eliana Sola Busas\nsound design: Luisa Nawka\nmix: Simon Peter\ngrading: Timm Kröger\ndramaturgy: Grit Lemke\nmusic: »Družki«, Kolektiw Klanki feat. Jimmie Prage;|»Křižerki«, MC ANKA\nwith: Johanna and the family in the farmyard,|the Easter riders of Ostro\nshown at: Filmfestival Cottbus 2022,|Neiße Filmfestival 2023",
+  "b": "At Easter, in the Catholic Sorbian villages of Upper Lusatia, men in black coats and top hats ride from one parish to the next and sing, to carry the news that Christ is risen. The horses are braided and decorated the day before. The women watch from the roadside. It has been so for as long as anyone in the village remembers.\n\nIn Ostro, in a four-sided farmyard not far from the church, a young woman named Johanna helps to braid the horses while her father tells her how it ought to be done, and how it ought not. She raps with a Sorbian feminist collective. She rides as well as any of the men who will ride on Sunday, and she would like to ride with them.\n\nThe film was shot in the spring of 2022, in Ostro and in Berlin-Marzahn. It follows her through one Easter and one question: what a tradition owes to the dead, and what it owes to the living. It leaves the question where it found it, at the side of the road, where the hoofprints can still be seen on Monday.",
   "img": [
    "img/krizerki/01",
    "img/krizerki/02",
@@ -1028,7 +1028,10 @@
    "img/krizerki/04"
   ],
   "th": "_t.jpg",
-  "hacek": 1
+  "hacek": 1,
+  "drift": "Christ is risen. The riders call it from the saddle into every village they pass, and the villages call it back.",
+  "drift2": "She braids the mane the way her father says. Then, when he has gone, she braids it her way.",
+  "dmode": "circle"
  },
  "INSULARITY": {
   "t": "insularity",
