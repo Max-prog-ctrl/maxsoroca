@@ -827,19 +827,23 @@
  "SULETHI": {
   "t": "sulethi",
   "s": "essay on the afterlife · 2014 · Tusheti, Khevsureti",
-  "b": "In the mountains of eastern Georgia the dead do not go far. Suleti, the land of souls, lies just behind the passes, and there the bedis mtserlebi, the writers of fate, keep a book in which every life is set down before it is lived. The way there leads over a bridge as thin as a hair, stretched above a river of tar.\n\nOne autumn a small crew drove up the road to Omalo and later crossed over to Shatili, a village built as a single fortress against the slope. They filmed towers, sheep on the road, a fly on a rain-wet window. In the evenings their hosts counted the guests at the table and set out one plate more.\n\nNobody asked who it was for.\n\nWhen the material came back down to the plain, some of the frames held a shadow that none of them remembered standing there. It does not move. Whether it faces the camera or has turned away, at this distance cannot be told.",
+  "b": "In the mountains of eastern Georgia the dead do not go far. The film opens on a coffin tied to the roof of a car. Further up, at the edge of a meadow, a family lays out bread, meat and bottles on the stones for someone who is no longer there.\n\nThe soul, so the film says, stays a while in the body before it leaves the flesh. Then it goes on to Sulethi, the land of souls, where it lives its earthly life once more, a perfect repetition. The way there leads over a bridge as thin as a hair, stretched above boiling pitch. Hell appears as a dark, tightly closed square. There is no direct way back.\n\nSome women can still go there. During a funeral one of them falls into a deep sleep and whispers with those who have crossed, and then the dead speak out of her mouth. Sometimes they warn the living who are close to death. In dreams, the souls of the next world choose the people through whom they stay connected to this one.\n\nThe visitors who filmed all this drove the road to Omalo and later crossed over to Shatili, a village built as a single fortress against the slope. In the evenings they sat at tables lit by candles stuck into plastic bottles. Their hosts counted the guests and set out one plate more. Nobody asked who it was for.\n\nAt the end the colours turn red, as if the film itself had begun to cross over. The last words belong to Baudelaire: the image of a terrible landscape that no mortal has ever seen.",
   "img": [
    "img/sulethi/01",
    "img/sulethi/02",
-   "img/sulethi/03",
+   "img/sulethi/13",
    "img/sulethi/04",
-   "img/sulethi/05",
    "img/sulethi/06",
+   "img/sulethi/03",
    "img/sulethi/07",
+   "img/sulethi/15",
+   "img/sulethi/14",
    "img/sulethi/08",
-   "img/sulethi/09",
+   "img/sulethi/16",
    "img/sulethi/10",
+   "img/sulethi/09",
    "img/sulethi/11",
+   "img/sulethi/05",
    "img/sulethi/12"
   ],
   "souls": [
@@ -865,7 +869,10 @@
   "inst": {
    "src": "img/sulethi/inst.jpg",
    "bb": "img/sulethi/bb.png"
-  }
+  },
+  "cr": "shot and made by: Max Sarokka\nplaces: Tusheti and Khevsureti, Georgia,|September and October 2014\nvideo snippets: Sebastian Kökow, Resopapa\nmusic: loe.loe.",
+  "drift": "On the way to the afterlife the soul has to cross a thin hair bridge over boiling pitch.",
+  "drift2": "There is no direct way back from the land of souls."
  },
  "KŘIŽERKI": {
   "t": "křižerki",
