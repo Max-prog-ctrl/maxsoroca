@@ -1326,17 +1326,21 @@
   "b": "Somewhere there was a first time. A hand did something that no drive had asked for and no instinct had prepared: it imagined a thing that was not yet there, and then made it. The search for that moment is what this film is about.\n\nWas it the chopper, a stone with one edge knocked off, about 2.6 million years ago, so that a bone could be cracked and the marrow reached? Or was it earlier, in a gesture of grief, a shell scratched with lines for no reason anyone can name, the first sound that meant something absent? Animals abstract too. The question is when an act stopped being an answer and became an invention.\n\nThe film looks for it on foot, drifting through a city without a destination and reading the layers time has left on its walls, and in a coastal town whose lower streets are already under the sea while the upper ones carry on as if nothing had happened. Every invention since has come from that first edge, including the ones that are drowning us.\n\nThe plus one is not being told yet.",
   "derive": true,
   "inst": {
-   "src": "img/chopper/taf.jpg"
-  }
+   "src": "img/chopper/taf.jpg",
+   "cls": "inv"
+  },
+  "cr": "made by: {ghost}\nplus one: —"
  },
  "ANITA [wip]": {
   "t": "anita",
   "s": "in preparation",
-  "b": "A balloon drifted over Antarctica with a ring of radio antennas, listening for particles falling in from deep space. In 2016 it heard something coming up out of the ice, from a direction nothing of that energy should be able to come from, because the whole Earth was in the way. Later it heard it again. Among the explanations offered, and fiercely disputed, was a second universe born in the same big bang as ours, in which time runs the other way.\n\nFurther north, light sometimes bends so far that the sun appears before it has risen. Sailors wintering on Novaya Zemlya once saw it return weeks too early.\n\nThe film is being put together from both ends.",
+  "b": "A balloon drifted over Antarctica with a ring of radio antennas, listening for particles falling in from deep space. On one of its flights it heard something coming up out of the ice, from a direction nothing of that energy should be able to come from, because the whole Earth was in the way. Later it heard it again. Among the explanations offered, and fiercely disputed, was a second universe born in the same big bang as ours, in which time runs the other way.\n\nFurther north, light sometimes bends so far that the sun appears before it has risen. Sailors wintering on Novaya Zemlya once saw it return weeks too early.\n\nThe film is being put together from both ends.",
   "anita": true,
   "inst": {
-   "src": "img/anita/sheet.jpg"
-  }
+   "src": "img/anita/sheet.jpg",
+   "cls": "inv"
+  },
+  "cr": "made by: {ghost}"
  },
  "FRIEDER_NAKE": {
   "t": "frieder nake",
