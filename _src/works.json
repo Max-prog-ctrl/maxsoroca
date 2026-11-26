@@ -1223,8 +1223,16 @@
    "insularity-text.html",
    "what is said and written in it"
   ],
-  "drift": "The void is a spectral realm; not even nothing can be free of ghosts. — Karen Barad",
-  "driftc": "#b0000c"
+  "theatre": {
+   "lines": [
+    "You learn about a place only with time, and experience it through it.",
+    "I merely see infinities everywhere, which enclose me like an atom and like a shadow that only lasts for an unrepeatable moment.",
+    "The soul is an underwater being, it is fluid and constantly changing, it needs places where it can work.",
+    "That every where and when finds its origin in a point is as vivid as a black sun.",
+    "Are we but fleeting shadows in the cosmic dance?"
+   ]
+  },
+  "cr": "made by: {ghost}"
  },
  "CHAPÜLÉE": {
   "t": "chapülée",
