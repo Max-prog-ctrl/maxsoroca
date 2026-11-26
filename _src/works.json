@@ -723,7 +723,7 @@
   "t": "insane_in_the_brane",
   "s": "auf der suche nach der realität · on the quest for reality · 2020",
   "cr": "direction: Max Soroka & Martin Ziesche;|Luisa Hänsel, Maria Kirillova|& insane in the brane\nidea: Max Soroka\nnarrator: Alexia Materne\nwith: Rosa Menkman, Horst Zuse,|Raúl Rojas González, Olaf Müller,|Karlheinz Steinmüller, Christian Uhle,|Christian Ihle, Michael Nahm,|Rudolf von Bitter Rucker,|Brian Reffin Smith, Sheikh Eşref Efendi,|Marie-Eve Levasseur, Svenja Anhut,|Stephan Günzel, Lev Manovich\nspecial guests: Helena Hauff, Dietrich Kuhlbrodt,|Dustin Leitol, Sylvia Wetzel,|Späti am Schlesi\ncamera: Łukasz Dawidowicz, Martin Ziesche,|Max Soroka, Maria Kirilova,|Franziska Kuttler, Constanze Kaul,|Franzi Sophie Schmid, Guido Mücke\nediting: Martin Ziesche, Max Soroka,|Luisa Hänsel, Maria Kirilova,|Magda Chucharacka\nsound: Martin Ziesche (mix), Max Soroka,|Łukasz Dawidowicz, Constanze Kaul\nmusic: Orson Hentschel, Julian Heidenreich,|4-D Traveller and others\nproduction: diy, without any money,|with master's students at TU Berlin",
-  "b": "A woman called Alexia was sent out to find out whether the world is real. She woke in a cave and could not tell whether she was in it or only its shadow. From there she climbed into the light of the Allgäu, to Hinterstein, where Konrad Zuse lived after the war and began to suspect that space itself was calculating.\n\nHis son received her in front of a machine shaped like a gate. A philosopher sat in a red cinema whose audience wore their eyes on the outside of their heads. A futurologist in a room full of books counted the worlds nested inside other worlds and arrived at no last one. Two men called Christian, one letter apart, answered for each other. Rosa Menkman stood in the ruins of the blub, a bathing paradise left to the weeds, where the tiles still remember the swimmers. A parapsychologist from Freiburg appeared only on the screen of a laptop, and so did a writer of science fiction from California. A sheikh in a wicker chair said that all of them were shadows. Dietrich Kuhlbrodt walked along the Elbe, the man at the Späti am Schlesi had his own theory, and in a greenhouse someone set the gravity of a world by hand.\n\nHalfway through, Olaf Müller looks up into a blue summer sky and finds a pixel there. He has no idea why.\n\nThe search ends in the anechoic chamber, which the film calls the dead room. Brian Reffin Smith, zombie-pataphysicist, holds a cybernetic séance there, dated in his own calendar to the fifteenth of Phalle. The room swallows every echo. Whether anything answered is not recorded.\n\nThe copy kept here measures 176 by 144 pixels. The last words belong to Proust: reality forms itself only in memory.",
+  "b": "A woman called Alexia was sent out to find out whether the world is real. She woke in a cave and could not tell whether she was in it or only its shadow. From there she climbed into the light of the Allgäu, to Hinterstein, where Konrad Zuse lived after the war and began to suspect that space itself was calculating.\n\nHis son received her in front of a machine shaped like a gate. A philosopher sat in a red cinema by the Spree whose audience wore their eyes on the outside of their heads. A futurologist in Rauchfangswerder, at the very edge of Berlin, in a room full of books, counted the worlds nested inside other worlds and arrived at no last one. Two men called Christian, one letter apart, answered for each other, out on Karl-Marx-Straße and inside Paolo Pinkel. Rosa Menkman stood in the ruins of the blub, a bathing paradise left to the weeds, where the tiles still remember the swimmers. A parapsychologist from Freiburg appeared only on the screen of a laptop, and so did a writer of science fiction from California. A sheikh in a wicker chair said that all of them were shadows. Dietrich Kuhlbrodt took the steps of Blankenese down to the Elbe, the man at the Späti am Schlesi had his own theory, and in a greenhouse on Lützner Straße in Leipzig someone set the gravity of a world by hand.\n\nHalfway through, Olaf Müller looks up into a blue summer sky and finds a pixel there. He has no idea why.\n\nThe search ends in the anechoic chamber of the TU Berlin, which the film calls the dead room. Brian Reffin Smith, zombie-pataphysicist, holds a cybernetic séance there, dated in his own calendar to the fifteenth of Phalle. The room swallows every echo. Whether anything answered is not recorded.\n\nThe copy kept here measures 176 by 144 pixels. The last words belong to Proust: reality forms itself only in memory.",
   "img": [
    "img/insane/01",
    "img/insane/02",
@@ -832,43 +832,43 @@
     ""
    ],
    [
-    467,
-    566,
+    430,
+    570,
     "Hinterstein, Allgäu",
     "Konrad Zuse, once",
     ""
    ],
    [
-    560,
-    440,
+    330,
+    400,
     "a machine like a gate",
     "Horst Zuse",
     ""
    ],
    [
-    600,
-    300,
-    "a red cinema",
+    500,
+    215,
+    "a red cinema by the Spree",
     "Olaf Müller",
     ""
    ],
    [
-    430,
-    370,
-    "a room full of books",
-    "Karlheinz Steinmüller",
+    960,
+    545,
+    "Rauchfangswerder",
+    "Karlheinz Steinmüller, among books",
     ""
    ],
    [
-    905,
-    385,
-    "one letter apart",
+    935,
+    300,
+    "Karl-Marx-Straße, Paolo Pinkel",
     "Christian Uhle, Christian Ihle",
     ""
    ],
    [
-    830,
-    200,
+    870,
+    395,
     "the blub",
     "Rosa Menkman",
     ""
@@ -888,78 +888,78 @@
     "d"
    ],
    [
-    330,
-    250,
-    "a wicker chair",
+    440,
+    335,
+    "near the UFA studios",
     "Sheikh Eşref Efendi",
     ""
    ],
    [
-    427,
+    330,
     120,
-    "the Elbe",
-    "Dietrich Kuhlbrodt",
+    "Blankenese, Treppenviertel",
+    "Dietrich Kuhlbrodt, Sylvia Wetzel",
     ""
    ],
    [
-    700,
+    690,
     150,
     "Späti am Schlesi",
     "",
     ""
    ],
    [
-    620,
-    505,
-    "a greenhouse",
+    560,
+    470,
+    "Annalinde, Lützner Straße",
     "Marie-Eve Levasseur",
     ""
    ],
    [
-    900,
-    120,
+    930,
+    90,
     "a games centre",
     "Svenja Anhut",
     ""
    ],
    [
-    300,
-    50,
+    250,
+    40,
     "a pixel in the sky",
     "Olaf Müller, again",
     "p"
    ],
    [
     20,
-    105,
+    190,
     "← barrow-upon-soar, 15 phalle",
     "Brian Reffin Smith",
     "d"
    ],
    [
-    760,
+    650,
     250,
-    "the dead room",
+    "the dead room, TU Berlin",
     "a séance",
     "e"
    ],
    [
-    880,
-    560,
+    700,
+    610,
     "",
     "Raúl Rojas González",
     "f"
    ],
    [
     40,
-    600,
+    610,
     "",
     "Stephan Günzel",
     "f"
    ],
    [
-    930,
-    30,
+    560,
+    40,
     "",
     "Lev Manovich",
     "f"
