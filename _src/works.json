@@ -832,50 +832,52 @@
     ""
    ],
    [
-    430,
-    570,
+    407,
+    540,
     "Hinterstein, Allgäu",
     "Konrad Zuse, once",
-    ""
+    "",
+    3
    ],
    [
-    330,
-    400,
+    250,
+    385,
     "a machine like a gate",
     "Horst Zuse",
     ""
    ],
    [
     500,
-    215,
+    200,
     "a red cinema by the Spree",
     "Olaf Müller",
     ""
    ],
    [
-    960,
-    545,
+    713,
+    540,
     "Rauchfangswerder",
     "Karlheinz Steinmüller, among books",
-    ""
+    "",
+    2
    ],
    [
     935,
-    300,
+    330,
     "Karl-Marx-Straße, Paolo Pinkel",
     "Christian Uhle, Christian Ihle",
     ""
    ],
    [
-    870,
-    395,
+    920,
+    465,
     "the blub",
     "Rosa Menkman",
     ""
    ],
    [
-    223,
-    520,
+    200,
+    565,
     "Freiburg, on a laptop",
     "Michael Nahm",
     "d"
@@ -888,18 +890,19 @@
     "d"
    ],
    [
-    440,
-    335,
+    400,
+    320,
     "near the UFA studios",
     "Sheikh Eşref Efendi",
     ""
    ],
    [
-    330,
-    120,
+    313,
+    250,
     "Blankenese, Treppenviertel",
     "Dietrich Kuhlbrodt, Sylvia Wetzel",
-    ""
+    "",
+    4
    ],
    [
     690,
@@ -910,7 +913,7 @@
    ],
    [
     560,
-    470,
+    435,
     "Annalinde, Lützner Straße",
     "Marie-Eve Levasseur",
     ""
@@ -923,11 +926,12 @@
     ""
    ],
    [
-    250,
-    40,
+    560,
+    70,
     "a pixel in the sky",
     "Olaf Müller, again",
-    "p"
+    "p",
+    0
    ],
    [
     20,
@@ -937,29 +941,30 @@
     "d"
    ],
    [
-    650,
+    807,
     250,
     "the dead room, TU Berlin",
     "a séance",
-    "e"
+    "e",
+    1
    ],
    [
     700,
-    610,
+    612,
     "",
-    "Raúl Rojas González",
+    "Raúl Rojas González, FU Berlin",
     "f"
    ],
    [
     40,
-    610,
+    612,
     "",
-    "Stephan Günzel",
+    "Stephan Günzel, TU Berlin",
     "f"
    ],
    [
-    560,
-    40,
+    800,
+    205,
     "",
     "Lev Manovich",
     "f"
